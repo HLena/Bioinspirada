@@ -15,7 +15,7 @@ int main(){
     cout<<"Probabilidad de cruce: ";cin>>pro_cru;cout<<endl;
     cout<<"Probabilidad de mutacion: ";cin>>pro_mut;cout<<endl;
     cout<<"N° generaciones: ";cin>>n_generations;cout<<endl;*/
-	genetico a(4,4,2,0.9,0.5,4);
+	genetico a(6,6,2,0.9,0.1,10);
     //decimal_to_bits(63);
    	
     return 0;
