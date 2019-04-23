@@ -1,0 +1,2855 @@
+         population inicial        
+ABCDEFGHJI -> 317 0
+ABCDEFGIHJ -> 417 0
+ABCDEFGIJH -> 363 0
+ABCDEFGJHI -> 408 0
+ABCDEFGJIH -> 393 0
+ABCDEFHGIJ -> 405 0
+ABCDEFHGJI -> 396 0
+ABCDEFHIGJ -> 496 0
+ABCDEFHIJG -> 448 0
+ABCDEFHJGI -> 457 0
+ABCDEFHJIG -> 418 0
+ABCDEFIGHJ -> 398 0
+ABCDEFIGJH -> 435 0
+ABCDEFIHGJ -> 428 0
+ABCDEFIHJG -> 441 0
+ABCDEFIJGH -> 374 0
+ABCDEFIJHG -> 350 0
+ABCDEFJGHI -> 455 0
+ABCDEFJGIH -> 501 0
+ABCDEFJHGI -> 425 0
+ABCDEFJHIG -> 477 0
+ABCDEFJIGH -> 410 0
+ABCDEFJIHG -> 416 0
+ABCDEGFHIJ -> 388 0
+ABCDEGFHJI -> 349 0
+ABCDEGFIHJ -> 381 0
+ABCDEGFIJH -> 327 0
+ABCDEGFJHI -> 408 0
+ABCDEGFJIH -> 393 0
+ABCDEGHFIJ -> 369 0
+----los 10 mejores----
+generacion:100
+------evaluando poblacion--------
+ABCDEFGHJI -> 317 11.3391
+ABCDEGFIJH -> 327 10.9923
+ABCDEGFHJI -> 349 10.2994
+ABCDEFIJHG -> 350 10.27
+ABCDEFGIJH -> 363 9.90219
+ABCDEGHFIJ -> 369 9.74118
+ABCDEFIJGH -> 374 9.61095
+ABCDEGFIHJ -> 381 9.43437
+ABCDEGFHIJ -> 388 9.26416
+ABCDEFGJIH -> 393 9.1463
+--------seleccion de padres--------
+padre 4   madre 7
+---------Cuzamiento OBX---------------
+padre: ABCDEFGIJH
+madre  ABCDEGFIHJ
+---posiciones seleccionadas---
+pos2 p1:C p2:C
+pos5 p1:F p2:G
+pos7 p1:I p2:I
+pos8 p1:J p2:H
+
+hijo1  ABCDEFGIJH
+hijo2  ABCDEGFIHJ
+mutacion hijo 1: CBHGEFDAJI 191
+mutacion hijo 2: AJHDCGFIEB 245
+generacion:99
+------evaluando poblacion--------
+CBHGEFDAJI -> 191 4.92828
+AJHDCGFIEB -> 245 4.69544
+ABCDEFGHJI -> 317 5.64342
+ABCDEGFIJH -> 327 5.47084
+ABCDEGFHJI -> 349 5.12597
+ABCDEFIJHG -> 350 5.11133
+ABCDEFGIJH -> 363 4.92828
+ABCDEGHFIJ -> 369 4.84814
+ABCDEFIJGH -> 374 4.78333
+ABCDEGFIHJ -> 381 4.69544
+--------seleccion de padres--------
+padre 2   madre 1
+---------Cuzamiento OBX---------------
+padre: ABCDEFGHJI
+madre  AJHDCGFIEB
+---posiciones seleccionadas---
+pos1 p1:B p2:J
+pos2 p1:C p2:H
+pos3 p1:D p2:D
+pos5 p1:F p2:G
+pos8 p1:J p2:E
+
+hijo1  AJDCEFGHBI
+hijo2  ADEGCHFIJB
+mutacion hijo 1: AJDHGEBCFI 190
+mutacion hijo 2: AIEGBHJDFC 231
+generacion:98
+------evaluando poblacion--------
+AJDHGEBCFI -> 190 3.73512
+CBHGEFDAJI -> 191 3.2618
+AIEGBHJDFC -> 231 3.1077
+AJHDCGFIEB -> 245 3.1077
+ABCDEFGHJI -> 317 3.73512
+ABCDEGFIJH -> 327 3.6209
+ABCDEGFHJI -> 349 3.39265
+ABCDEFIJHG -> 350 3.38296
+ABCDEFGIJH -> 363 3.2618
+ABCDEGHFIJ -> 369 3.20877
+--------seleccion de padres--------
+padre 3   madre 8
+---------Cuzamiento OBX---------------
+padre: AJHDCGFIEB
+madre  ABCDEFGIJH
+---posiciones seleccionadas---
+pos0 p1:A p2:A
+pos1 p1:J p2:B
+pos3 p1:D p2:D
+pos4 p1:C p2:E
+pos6 p1:F p2:G
+pos9 p1:B p2:H
+
+hijo1  ABHCDGFIEJ
+hijo2  AHCDGFEIJB
+mutacion hijo 1: JGHFDBCAEI 226
+mutacion hijo 2: HJBEGFCIAD 167
+generacion:97
+------evaluando poblacion--------
+HJBEGFCIAD -> 167 2.4394
+AJDHGEBCFI -> 190 2.79338
+CBHGEFDAJI -> 191 2.4394
+JGHFDBCAEI -> 226 2.32415
+AIEGBHJDFC -> 231 2.32415
+AJHDCGFIEB -> 245 2.32415
+ABCDEFGHJI -> 317 2.79338
+ABCDEGFIJH -> 327 2.70795
+ABCDEGFHJI -> 349 2.53725
+ABCDEFIJHG -> 350 2.53
+--------seleccion de padres--------
+padre 10   madre 9
+---------Cuzamiento OBX---------------
+padre: ABCDEFGIJH
+madre  ABCDEFIJHG
+---posiciones seleccionadas---
+pos0 p1:A p2:A
+pos2 p1:C p2:C
+pos3 p1:D p2:D
+pos4 p1:E p2:E
+pos5 p1:F p2:F
+pos6 p1:G p2:I
+pos7 p1:I p2:J
+pos8 p1:J p2:H
+pos9 p1:H p2:G
+
+hijo1  ABCDEFIJHG
+hijo2  ABCDEFGIJH
+mutacion hijo 1: AEDBCFIJHG 234
+mutacion hijo 2: HBCJFDAIEG 241
+generacion:96
+------evaluando poblacion--------
+HJBEGFCIAD -> 167 1.94972
+AJDHGEBCFI -> 190 2.23264
+CBHGEFDAJI -> 191 1.94972
+JGHFDBCAEI -> 226 1.85761
+AIEGBHJDFC -> 231 1.85761
+AEDBCFIJHG -> 234 1.94972
+HBCJFDAIEG -> 241 2.02214
+AJHDCGFIEB -> 245 1.85761
+ABCDEFGHJI -> 317 2.23264
+ABCDEGFIJH -> 327 2.16437
+--------seleccion de padres--------
+padre 5   madre 4
+---------Cuzamiento OBX---------------
+padre: AEDBCFIJHG
+madre  AIEGBHJDFC
+---posiciones seleccionadas---
+pos0 p1:A p2:A
+pos1 p1:E p2:I
+pos2 p1:D p2:E
+pos4 p1:C p2:B
+pos6 p1:I p2:J
+pos7 p1:J p2:D
+
+hijo1  AIEBJFDCHG
+hijo2  AEDGBHIJFC
+mutacion hijo 1: AEIJDFBCGH 185
+mutacion hijo 2: EAFGBDHJIC 154
+generacion:95
+------evaluando poblacion--------
+EAFGBDHJIC -> 154 1.55469
+HJBEGFCIAD -> 167 1.63178
+AEIJDFBCGH -> 185 1.63178
+AJDHGEBCFI -> 190 1.86857
+CBHGEFDAJI -> 191 1.63178
+JGHFDBCAEI -> 226 1.55469
+AIEGBHJDFC -> 231 1.55469
+AEDBCFIJHG -> 234 1.63178
+HBCJFDAIEG -> 241 1.69239
+AJHDCGFIEB -> 245 1.55469
+--------seleccion de padres--------
+padre 1   madre 7
+---------Cuzamiento OBX---------------
+padre: HJBEGFCIAD
+madre  AEDBCFIJHG
+---posiciones seleccionadas---
+pos0 p1:H p2:A
+pos3 p1:E p2:B
+pos5 p1:F p2:F
+pos6 p1:C p2:I
+pos7 p1:I p2:J
+pos8 p1:A p2:H
+pos9 p1:D p2:G
+
+hijo1  AJBEGDCFIH
+hijo2  HEDJCBGFIA
+mutacion hijo 1: DHBEGACFIJ 157
+mutacion hijo 2: GHEJCBDIAF 253
+generacion:94
+------evaluando poblacion--------
+EAFGBDHJIC -> 154 1.33583
+DHBEGACFIJ -> 157 1.40207
+HJBEGFCIAD -> 167 1.40207
+AEIJDFBCGH -> 185 1.40207
+AJDHGEBCFI -> 190 1.60552
+CBHGEFDAJI -> 191 1.40207
+JGHFDBCAEI -> 226 1.33583
+AIEGBHJDFC -> 231 1.33583
+AEDBCFIJHG -> 234 1.40207
+HBCJFDAIEG -> 241 1.45414
+--------seleccion de padres--------
+padre 6   madre 10
+---------Cuzamiento OBX---------------
+padre: JGHFDBCAEI
+madre  AJHDCGFIEB
+---posiciones seleccionadas---
+pos1 p1:G p2:J
+pos2 p1:H p2:H
+pos4 p1:D p2:C
+pos5 p1:B p2:G
+
+hijo1  JHDFGBCAEI
+hijo2  AJGDHCFIEB
+mutacion hijo 1: JHGFDBCAEI 147
+mutacion hijo 2: HJFDBCGIEA 262
+generacion:93
+------evaluando poblacion--------
+JHGFDBCAEI -> 147 1.1722
+EAFGBDHJIC -> 154 1.1722
+DHBEGACFIJ -> 157 1.23032
+HJBEGFCIAD -> 167 1.23032
+AEIJDFBCGH -> 185 1.23032
+AJDHGEBCFI -> 190 1.40886
+CBHGEFDAJI -> 191 1.23032
+JGHFDBCAEI -> 226 1.1722
+AIEGBHJDFC -> 231 1.1722
+AEDBCFIJHG -> 234 1.23032
+--------seleccion de padres--------
+padre 3   madre 10
+---------Cuzamiento OBX---------------
+padre: HJBEGFCIAD
+madre  HBCJFDAIEG
+---posiciones seleccionadas---
+pos0 p1:H p2:H
+pos1 p1:J p2:B
+pos3 p1:E p2:J
+pos5 p1:F p2:D
+pos6 p1:C p2:A
+pos7 p1:I p2:I
+pos8 p1:A p2:E
+
+hijo1  HCBJGFAIED
+hijo2  HJCBFEIADG
+mutacion hijo 1: HDBJCFAIEG 165
+mutacion hijo 2: HJICFEBDAG 190
+generacion:92
+------evaluando poblacion--------
+JHGFDBCAEI -> 147 1.04332
+EAFGBDHJIC -> 154 1.04332
+DHBEGACFIJ -> 157 1.09505
+HDBJCFAIEG -> 165 1.09505
+HJBEGFCIAD -> 167 1.09505
+AEIJDFBCGH -> 185 1.09505
+AJDHGEBCFI -> 190 1.25395
+HJICFEBDAG -> 190 1.13572
+CBHGEFDAJI -> 191 1.09505
+JGHFDBCAEI -> 226 1.04332
+--------seleccion de padres--------
+padre 6   madre 9
+---------Cuzamiento OBX---------------
+padre: AJDHGEBCFI
+madre  JGHFDBCAEI
+---posiciones seleccionadas---
+pos3 p1:H p2:F
+pos4 p1:G p2:D
+pos5 p1:E p2:B
+pos6 p1:B p2:C
+pos7 p1:C p2:A
+
+hijo1  AJDGHBCEFI
+hijo2  JGHADBCFEI
+mutacion hijo 1: JICAEBDHGF 97
+mutacion hijo 2: JGHADFCBEI 231
+generacion:91
+------evaluando poblacion--------
+JICAEBDHGF -> 97 1.1276
+JHGFDBCAEI -> 147 0.938188
+EAFGBDHJIC -> 154 0.938188
+DHBEGACFIJ -> 157 0.98471
+HDBJCFAIEG -> 165 0.98471
+HJBEGFCIAD -> 167 0.98471
+AEIJDFBCGH -> 185 0.98471
+AJDHGEBCFI -> 190 1.1276
+HJICFEBDAG -> 190 1.02128
+CBHGEFDAJI -> 191 0.98471
+--------seleccion de padres--------
+padre 6   madre 4
+---------Cuzamiento OBX---------------
+padre: AEIJDFBCGH
+madre  HDBJCFAIEG
+---posiciones seleccionadas---
+pos0 p1:A p2:H
+pos2 p1:I p2:B
+pos3 p1:J p2:J
+pos4 p1:D p2:C
+pos5 p1:F p2:F
+pos8 p1:G p2:E
+pos9 p1:H p2:G
+
+hijo1  HEDJFABCIG
+hijo2  EDJFBCAIGH
+mutacion hijo 1: AGHCFDBJIE 217
+mutacion hijo 2: DFAJBCEIGH 236
+generacion:90
+------evaluando poblacion--------
+JICAEBDHGF -> 97 1.02438
+JHGFDBCAEI -> 147 0.852306
+EAFGBDHJIC -> 154 0.852306
+DHBEGACFIJ -> 157 0.894569
+HDBJCFAIEG -> 165 0.894569
+HJBEGFCIAD -> 167 0.894569
+AEIJDFBCGH -> 185 0.894569
+AJDHGEBCFI -> 190 1.02438
+HJICFEBDAG -> 190 0.927796
+CBHGEFDAJI -> 191 0.894569
+--------seleccion de padres--------
+padre 7   madre 5
+---------Cuzamiento OBX---------------
+padre: AJDHGEBCFI
+madre  HJBEGFCIAD
+---posiciones seleccionadas---
+pos1 p1:J p2:J
+pos2 p1:D p2:B
+pos3 p1:H p2:E
+pos5 p1:E p2:F
+pos8 p1:F p2:A
+
+hijo1  AHJEGFBCDI
+hijo2  HAJEGBCIFD
+mutacion hijo 1: DAJCGFHBIE 232
+mutacion hijo 2: HDJEIBCGFA 194
+generacion:89
+------evaluando poblacion--------
+JICAEBDHGF -> 97 0.938473
+JHGFDBCAEI -> 147 0.780829
+EAFGBDHJIC -> 154 0.780829
+DHBEGACFIJ -> 157 0.819548
+HDBJCFAIEG -> 165 0.819548
+HJBEGFCIAD -> 167 0.819548
+AEIJDFBCGH -> 185 0.819548
+AJDHGEBCFI -> 190 0.938473
+HJICFEBDAG -> 190 0.849988
+CBHGEFDAJI -> 191 0.819548
+--------seleccion de padres--------
+padre 2   madre 4
+---------Cuzamiento OBX---------------
+padre: EAFGBDHJIC
+madre  HDBJCFAIEG
+---posiciones seleccionadas---
+pos1 p1:A p2:D
+pos6 p1:H p2:A
+pos7 p1:J p2:I
+pos8 p1:I p2:E
+pos9 p1:C p2:G
+
+hijo1  EHFGBDJCAI
+hijo2  HEBJCFAGDI
+mutacion hijo 1: EBCGFHJDAI 222
+mutacion hijo 2: DHBJAFCGEI 134
+generacion:88
+------evaluando poblacion--------
+JICAEBDHGF -> 97 0.865859
+DHBJAFCGEI -> 134 0.756136
+JHGFDBCAEI -> 147 0.720413
+EAFGBDHJIC -> 154 0.720413
+DHBEGACFIJ -> 157 0.756136
+HDBJCFAIEG -> 165 0.756136
+HJBEGFCIAD -> 167 0.756136
+AEIJDFBCGH -> 185 0.756136
+AJDHGEBCFI -> 190 0.865859
+HJICFEBDAG -> 190 0.784221
+--------seleccion de padres--------
+padre 7   madre 4
+---------Cuzamiento OBX---------------
+padre: AEIJDFBCGH
+madre  DHBEGACFIJ
+---posiciones seleccionadas---
+pos3 p1:J p2:E
+pos5 p1:F p2:A
+pos7 p1:C p2:F
+pos9 p1:H p2:J
+
+hijo1  AEIHDCBFGJ
+hijo2  DHBAGECJIF
+mutacion hijo 1: AEIJCDBFGH 233
+mutacion hijo 2: DHBCGEAFIJ 134
+generacion:87
+------evaluando poblacion--------
+JICAEBDHGF -> 97 0.803884
+DHBJAFCGEI -> 134 0.702015
+DHBCGEAFIJ -> 134 0.702015
+JHGFDBCAEI -> 147 0.668849
+EAFGBDHJIC -> 154 0.668849
+DHBEGACFIJ -> 157 0.702015
+HDBJCFAIEG -> 165 0.702015
+HJBEGFCIAD -> 167 0.702015
+AEIJDFBCGH -> 185 0.702015
+AJDHGEBCFI -> 190 0.803884
+--------seleccion de padres--------
+padre 7   madre 6
+---------Cuzamiento OBX---------------
+padre: HJBEGFCIAD
+madre  HDBJCFAIEG
+---posiciones seleccionadas---
+pos1 p1:J p2:D
+pos2 p1:B p2:B
+pos3 p1:E p2:J
+pos4 p1:G p2:C
+pos7 p1:I p2:I
+pos8 p1:A p2:E
+
+hijo1  HBJAIFCEGD
+hijo2  HJBECFAIDG
+mutacion hijo 1: HBJIAFCEGD 232
+mutacion hijo 2: DJBECFAIGH 234
+generacion:86
+------evaluando poblacion--------
+JICAEBDHGF -> 97 0.750189
+DHBJAFCGEI -> 134 0.655124
+DHBCGEAFIJ -> 134 0.655124
+JHGFDBCAEI -> 147 0.624173
+EAFGBDHJIC -> 154 0.624173
+DHBEGACFIJ -> 157 0.655124
+HDBJCFAIEG -> 165 0.655124
+HJBEGFCIAD -> 167 0.655124
+AEIJDFBCGH -> 185 0.655124
+AJDHGEBCFI -> 190 0.750189
+--------seleccion de padres--------
+padre 10   madre 2
+---------Cuzamiento OBX---------------
+padre: HBJIAFCEGD
+madre  DHBCGEAFIJ
+---posiciones seleccionadas---
+pos0 p1:H p2:D
+pos1 p1:B p2:H
+pos2 p1:J p2:B
+pos4 p1:A p2:G
+pos5 p1:F p2:E
+pos6 p1:C p2:A
+pos7 p1:E p2:F
+pos9 p1:D p2:J
+
+hijo1  DHBICEAFGJ
+hijo2  HBJCAFEGID
+mutacion hijo 1: DHJIBEAFGC 133
+mutacion hijo 2: HGCBAFDJIE 160
+generacion:85
+------evaluando poblacion--------
+JICAEBDHGF -> 97 0.703845
+DHJIBEAFGC -> 133 0.614653
+DHBJAFCGEI -> 134 0.614653
+DHBCGEAFIJ -> 134 0.614653
+JHGFDBCAEI -> 147 0.585614
+EAFGBDHJIC -> 154 0.585614
+DHBEGACFIJ -> 157 0.614653
+HGCBAFDJIE -> 160 0.614653
+HDBJCFAIEG -> 165 0.614653
+HJBEGFCIAD -> 167 0.614653
+--------seleccion de padres--------
+padre 10   madre 9
+---------Cuzamiento OBX---------------
+padre: AEIJDFBCGH
+madre  HJBEGFCIAD
+---posiciones seleccionadas---
+pos2 p1:I p2:B
+pos3 p1:J p2:E
+pos5 p1:F p2:F
+pos7 p1:C p2:I
+
+hijo1  AEJFDCBIGH
+hijo2  HJEIGFCBAD
+mutacion hijo 1: BECFGJAIDH 239
+mutacion hijo 2: HBEJGFCIAD 180
+generacion:84
+------evaluando poblacion--------
+JICAEBDHGF -> 97 0.662894
+DHJIBEAFGC -> 133 0.578891
+DHBJAFCGEI -> 134 0.578891
+DHBCGEAFIJ -> 134 0.578891
+JHGFDBCAEI -> 147 0.551542
+EAFGBDHJIC -> 154 0.551542
+DHBEGACFIJ -> 157 0.578891
+HGCBAFDJIE -> 160 0.578891
+HDBJCFAIEG -> 165 0.578891
+HJBEGFCIAD -> 167 0.578891
+--------seleccion de padres--------
+padre 3   madre 2
+---------Cuzamiento OBX---------------
+padre: DHBCGEAFIJ
+madre  DHBJAFCGEI
+---posiciones seleccionadas---
+pos4 p1:G p2:A
+pos5 p1:E p2:F
+pos6 p1:A p2:C
+pos7 p1:F p2:G
+pos9 p1:J p2:I
+
+hijo1  DHBCJAFGIE
+hijo2  DHBJCGAFEI
+mutacion hijo 1: DHBCJAFGIE 168
+mutacion hijo 2: DHBJAGCFIE 184
+generacion:83
+------evaluando poblacion--------
+JICAEBDHGF -> 97 0.626446
+DHJIBEAFGC -> 133 0.547062
+DHBJAFCGEI -> 134 0.547062
+DHBCGEAFIJ -> 134 0.547062
+JHGFDBCAEI -> 147 0.521216
+EAFGBDHJIC -> 154 0.521216
+DHBEGACFIJ -> 157 0.547062
+HGCBAFDJIE -> 160 0.547062
+HDBJCFAIEG -> 165 0.547062
+HJBEGFCIAD -> 167 0.547062
+--------seleccion de padres--------
+padre 9   madre 4
+---------Cuzamiento OBX---------------
+padre: HJBEGFCIAD
+madre  JHGFDBCAEI
+---posiciones seleccionadas---
+pos2 p1:B p2:G
+pos3 p1:E p2:F
+pos4 p1:G p2:D
+pos9 p1:D p2:I
+
+hijo1  HJGDBFCIAE
+hijo2  JHGFIBCAED
+mutacion hijo 1: HJADBFICGE 219
+mutacion hijo 2: JHDFICBAEG 199
+generacion:82
+------evaluando poblacion--------
+JICAEBDHGF -> 97 0.593797
+DHJIBEAFGC -> 133 0.51855
+DHBJAFCGEI -> 134 0.51855
+DHBCGEAFIJ -> 134 0.51855
+JHGFDBCAEI -> 147 0.494052
+EAFGBDHJIC -> 154 0.494052
+DHBEGACFIJ -> 157 0.51855
+HGCBAFDJIE -> 160 0.51855
+HDBJCFAIEG -> 165 0.51855
+HJBEGFCIAD -> 167 0.51855
+--------seleccion de padres--------
+padre 9   madre 5
+---------Cuzamiento OBX---------------
+padre: HJBEGFCIAD
+madre  EAFGBDHJIC
+---posiciones seleccionadas---
+pos2 p1:B p2:F
+pos6 p1:C p2:H
+pos7 p1:I p2:J
+pos9 p1:D p2:C
+
+hijo1  HJBEGFDIAC
+hijo2  EAHGBDJFIC
+mutacion hijo 1: HJIEGFDBAC 169
+mutacion hijo 2: JACGFDHBIE 170
+generacion:81
+------evaluando poblacion--------
+JICAEBDHGF -> 97 0.564383
+DHJIBEAFGC -> 133 0.492863
+DHBJAFCGEI -> 134 0.492863
+DHBCGEAFIJ -> 134 0.492863
+JHGFDBCAEI -> 147 0.469578
+EAFGBDHJIC -> 154 0.469578
+DHBEGACFIJ -> 157 0.492863
+HGCBAFDJIE -> 160 0.492863
+HDBJCFAIEG -> 165 0.492863
+HJBEGFCIAD -> 167 0.492863
+--------seleccion de padres--------
+padre 9   madre 2
+---------Cuzamiento OBX---------------
+padre: HJBEGFCIAD
+madre  DHBJAFCGEI
+---posiciones seleccionadas---
+pos0 p1:H p2:D
+pos3 p1:E p2:J
+pos4 p1:G p2:A
+pos5 p1:F p2:F
+pos6 p1:C p2:C
+pos8 p1:A p2:E
+
+hijo1  HJBAFCGIED
+hijo2  JHBEFCAGDI
+mutacion hijo 1: HBDAFCJIEG 146
+mutacion hijo 2: JHBEICAGDF 207
+generacion:80
+------evaluando poblacion--------
+JICAEBDHGF -> 97 0.537745
+DHJIBEAFGC -> 133 0.469601
+DHBJAFCGEI -> 134 0.469601
+DHBCGEAFIJ -> 134 0.469601
+HBDAFCJIEG -> 146 0.469601
+JHGFDBCAEI -> 147 0.447415
+EAFGBDHJIC -> 154 0.447415
+DHBEGACFIJ -> 157 0.469601
+HGCBAFDJIE -> 160 0.469601
+HDBJCFAIEG -> 165 0.469601
+--------seleccion de padres--------
+padre 6   madre 9
+---------Cuzamiento OBX---------------
+padre: EAFGBDHJIC
+madre  HDBJCFAIEG
+---posiciones seleccionadas---
+pos2 p1:F p2:B
+pos3 p1:G p2:J
+pos8 p1:I p2:E
+
+hijo1  EAFIBDHJGC
+hijo2  HDEBCFAIJG
+mutacion hijo 1: IGFEBDHJAC 209
+mutacion hijo 2: HDJBCFAIEG 169
+generacion:79
+------evaluando poblacion--------
+JICAEBDHGF -> 97 0.513509
+DHJIBEAFGC -> 133 0.448436
+DHBJAFCGEI -> 134 0.448436
+DHBCGEAFIJ -> 134 0.448436
+HBDAFCJIEG -> 146 0.448436
+JHGFDBCAEI -> 147 0.42725
+EAFGBDHJIC -> 154 0.42725
+DHBEGACFIJ -> 157 0.448436
+HGCBAFDJIE -> 160 0.448436
+HDBJCFAIEG -> 165 0.448436
+--------seleccion de padres--------
+padre 2   madre 3
+---------Cuzamiento OBX---------------
+padre: DHBJAFCGEI
+madre  DHBCGEAFIJ
+---posiciones seleccionadas---
+pos0 p1:D p2:D
+pos4 p1:A p2:G
+pos7 p1:G p2:F
+pos8 p1:E p2:I
+
+hijo1  DHBJGFCEAI
+hijo2  DHBCFEAGIJ
+mutacion hijo 1: DHBEGFAJIC 107
+mutacion hijo 2: DHBGFEACIJ 170
+generacion:78
+------evaluando poblacion--------
+JICAEBDHGF -> 97 0.491363
+DHBEGFAJIC -> 107 0.429096
+DHJIBEAFGC -> 133 0.429096
+DHBJAFCGEI -> 134 0.429096
+DHBCGEAFIJ -> 134 0.429096
+HBDAFCJIEG -> 146 0.429096
+JHGFDBCAEI -> 147 0.408824
+EAFGBDHJIC -> 154 0.408824
+DHBEGACFIJ -> 157 0.429096
+HGCBAFDJIE -> 160 0.429096
+--------seleccion de padres--------
+padre 1   madre 4
+---------Cuzamiento OBX---------------
+padre: DHBEGFAJIC
+madre  DHBCGEAFIJ
+---posiciones seleccionadas---
+pos0 p1:D p2:D
+pos2 p1:B p2:B
+pos3 p1:E p2:C
+pos6 p1:A p2:A
+pos7 p1:J p2:F
+pos8 p1:I p2:I
+
+hijo1  DHBEGFAIJC
+hijo2  DHBFGEAICJ
+mutacion hijo 1: DHBEGFAIJC 123
+mutacion hijo 2: DHGFBEAICJ 149
+generacion:77
+------evaluando poblacion--------
+JICAEBDHGF -> 97 0.471048
+DHBEGFAJIC -> 107 0.411356
+DHBEGFAIJC -> 123 0.411356
+DHJIBEAFGC -> 133 0.411356
+DHBJAFCGEI -> 134 0.411356
+DHBCGEAFIJ -> 134 0.411356
+HBDAFCJIEG -> 146 0.411356
+JHGFDBCAEI -> 147 0.391922
+DHGFBEAICJ -> 149 0.411356
+EAFGBDHJIC -> 154 0.391922
+--------seleccion de padres--------
+padre 10   madre 4
+---------Cuzamiento OBX---------------
+padre: DHBEGACFIJ
+madre  DHBJAFCGEI
+---posiciones seleccionadas---
+pos1 p1:H p2:H
+pos2 p1:B p2:B
+pos5 p1:A p2:F
+pos6 p1:C p2:C
+pos8 p1:I p2:E
+
+hijo1  DHBEGACFIJ
+hijo2  DHBJAECGFI
+mutacion hijo 1: DHBEGFCAIJ 113
+mutacion hijo 2: DBHJAEIGFC 172
+generacion:76
+------evaluando poblacion--------
+JICAEBDHGF -> 97 0.452262
+DHBEGFAJIC -> 107 0.39495
+DHBEGFCAIJ -> 113 0.39495
+DHBEGFAIJC -> 123 0.39495
+DHJIBEAFGC -> 133 0.39495
+DHBJAFCGEI -> 134 0.39495
+DHBCGEAFIJ -> 134 0.39495
+HBDAFCJIEG -> 146 0.39495
+JHGFDBCAEI -> 147 0.376291
+DHGFBEAICJ -> 149 0.39495
+--------seleccion de padres--------
+padre 7   madre 8
+---------Cuzamiento OBX---------------
+padre: HBDAFCJIEG
+madre  JHGFDBCAEI
+---posiciones seleccionadas---
+pos0 p1:H p2:J
+pos2 p1:D p2:G
+pos3 p1:A p2:F
+pos4 p1:F p2:D
+pos5 p1:C p2:B
+pos7 p1:I p2:A
+pos8 p1:E p2:E
+pos9 p1:G p2:I
+
+hijo1  HBGFDCJAEI
+hijo2  BHDAFJCIEG
+mutacion hijo 1: HDGFACJIEB 176
+mutacion hijo 2: BDHJEAFGCI 145
+generacion:75
+------evaluando poblacion--------
+JICAEBDHGF -> 97 0.434995
+DHBEGFAJIC -> 107 0.379871
+DHBEGFCAIJ -> 113 0.379871
+DHBEGFAIJC -> 123 0.379871
+DHJIBEAFGC -> 133 0.379871
+DHBJAFCGEI -> 134 0.379871
+DHBCGEAFIJ -> 134 0.379871
+BDHJEAFGCI -> 145 0.361925
+HBDAFCJIEG -> 146 0.379871
+JHGFDBCAEI -> 147 0.361925
+--------seleccion de padres--------
+padre 6   madre 2
+---------Cuzamiento OBX---------------
+padre: DHBCGEAFIJ
+madre  DHBEGFCAIJ
+---posiciones seleccionadas---
+pos0 p1:D p2:D
+pos3 p1:C p2:E
+pos5 p1:E p2:F
+pos7 p1:F p2:A
+pos8 p1:I p2:I
+pos9 p1:J p2:J
+
+hijo1  DHBEGFACIJ
+hijo2  DHBEGACFIJ
+mutacion hijo 1: DHBEAFGCIJ 87
+mutacion hijo 2: DHBEGACFIJ 157
+generacion:74
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.365838
+JICAEBDHGF -> 97 0.418925
+DHBEGFAJIC -> 107 0.365838
+DHBEGFCAIJ -> 113 0.365838
+DHBEGFAIJC -> 123 0.365838
+DHJIBEAFGC -> 133 0.365838
+DHBJAFCGEI -> 134 0.365838
+DHBCGEAFIJ -> 134 0.365838
+BDHJEAFGCI -> 145 0.348555
+HBDAFCJIEG -> 146 0.365838
+--------seleccion de padres--------
+padre 3   madre 7
+---------Cuzamiento OBX---------------
+padre: DHBEGFCAIJ
+madre  DHBCGEAFIJ
+---posiciones seleccionadas---
+pos1 p1:H p2:H
+pos2 p1:B p2:B
+pos7 p1:A p2:F
+pos9 p1:J p2:J
+
+hijo1  DHBEGFCAIJ
+hijo2  DHBCGEAFIJ
+mutacion hijo 1: DHBEGFCAIJ 113
+mutacion hijo 2: DHBCGEAFIJ 134
+generacion:73
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.352746
+JICAEBDHGF -> 97 0.403933
+DHBEGFAJIC -> 107 0.352746
+DHBEGFCAIJ -> 113 0.352746
+DHBEGFCAIJ -> 113 0.352746
+DHBEGFAIJC -> 123 0.352746
+DHJIBEAFGC -> 133 0.352746
+DHBJAFCGEI -> 134 0.352746
+DHBCGEAFIJ -> 134 0.352746
+DHBCGEAFIJ -> 134 0.352746
+--------seleccion de padres--------
+padre 4   madre 2
+---------Cuzamiento OBX---------------
+padre: DHBEGFCAIJ
+madre  DHBEGFAJIC
+---posiciones seleccionadas---
+pos0 p1:D p2:D
+pos4 p1:G p2:G
+pos7 p1:A p2:J
+pos8 p1:I p2:I
+pos9 p1:J p2:C
+
+hijo1  DHBEGFCAJI
+hijo2  DHBEGFACIJ
+mutacion hijo 1: DHBEGFCAJI 112
+mutacion hijo 2: DHBEAFGCIJ 87
+generacion:72
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.340559
+DHBEAFGCIJ -> 87 0.340559
+JICAEBDHGF -> 97 0.389977
+DHBEGFAJIC -> 107 0.340559
+DHBEGFCAJI -> 112 0.340559
+DHBEGFCAIJ -> 113 0.340559
+DHBEGFCAIJ -> 113 0.340559
+DHBEGFAIJC -> 123 0.340559
+DHJIBEAFGC -> 133 0.340559
+DHBJAFCGEI -> 134 0.340559
+--------seleccion de padres--------
+padre 4   madre 6
+---------Cuzamiento OBX---------------
+padre: DHBEGFCAJI
+madre  DHBEGFCAIJ
+---posiciones seleccionadas---
+pos0 p1:D p2:D
+pos3 p1:E p2:E
+pos4 p1:G p2:G
+pos6 p1:C p2:C
+pos7 p1:A p2:A
+pos8 p1:J p2:I
+
+hijo1  DHBEGFCAJI
+hijo2  DHBEGFCAIJ
+mutacion hijo 1: DHBEGCFAJI 105
+mutacion hijo 2: DHBEGFACIJ 99
+generacion:71
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.329185
+DHBEAFGCIJ -> 87 0.329185
+JICAEBDHGF -> 97 0.376954
+DHBEGFACIJ -> 99 0.329185
+DHBEGCFAJI -> 105 0.329185
+DHBEGFAJIC -> 107 0.329185
+DHBEGFCAJI -> 112 0.329185
+DHBEGFCAIJ -> 113 0.329185
+DHBEGFCAIJ -> 113 0.329185
+DHBEGFAIJC -> 123 0.329185
+--------seleccion de padres--------
+padre 1   madre 7
+---------Cuzamiento OBX---------------
+padre: DHBEAFGCIJ
+madre  DHBEGFCAIJ
+---posiciones seleccionadas---
+pos2 p1:B p2:B
+pos4 p1:A p2:G
+pos7 p1:C p2:A
+pos8 p1:I p2:I
+pos9 p1:J p2:J
+
+hijo1  DHBECFGAIJ
+hijo2  DHBEAFCGIJ
+mutacion hijo 1: DHBEFGCAIJ 137
+mutacion hijo 2: DHBEAFCGIJ 130
+generacion:70
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.318547
+DHBEAFGCIJ -> 87 0.318547
+JICAEBDHGF -> 97 0.364772
+DHBEGFACIJ -> 99 0.318547
+DHBEGCFAJI -> 105 0.318547
+DHBEGFAJIC -> 107 0.318547
+DHBEGFCAJI -> 112 0.318547
+DHBEGFCAIJ -> 113 0.318547
+DHBEGFCAIJ -> 113 0.318547
+DHBEGFAIJC -> 123 0.318547
+--------seleccion de padres--------
+padre 1   madre 6
+---------Cuzamiento OBX---------------
+padre: DHBEAFGCIJ
+madre  DHBEGFCAJI
+---posiciones seleccionadas---
+pos1 p1:H p2:H
+pos2 p1:B p2:B
+pos3 p1:E p2:E
+pos4 p1:A p2:G
+pos5 p1:F p2:F
+pos6 p1:G p2:C
+pos8 p1:I p2:J
+pos9 p1:J p2:I
+
+hijo1  DHBEGFACJI
+hijo2  DHBEFGCAIJ
+mutacion hijo 1: DHBEGFACJI 114
+mutacion hijo 2: DHBEFGCAIJ 137
+generacion:69
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.308575
+DHBEAFGCIJ -> 87 0.308575
+JICAEBDHGF -> 97 0.353352
+DHBEGFACIJ -> 99 0.308575
+DHBEGCFAJI -> 105 0.308575
+DHBEGFAJIC -> 107 0.308575
+DHBEGFCAJI -> 112 0.308575
+DHBEGFCAIJ -> 113 0.308575
+DHBEGFCAIJ -> 113 0.308575
+DHBEGFACJI -> 114 0.308575
+--------seleccion de padres--------
+padre 4   madre 5
+---------Cuzamiento OBX---------------
+padre: DHBEGCFAJI
+madre  DHBEGFAJIC
+---posiciones seleccionadas---
+pos2 p1:B p2:B
+pos4 p1:G p2:G
+pos6 p1:F p2:A
+pos7 p1:A p2:J
+pos9 p1:I p2:C
+
+hijo1  DHBEGCFAJI
+hijo2  DHBEGFCAIJ
+mutacion hijo 1: DHBEGCFAJI 105
+mutacion hijo 2: DHBEGFCAJI 112
+generacion:68
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.299208
+DHBEAFGCIJ -> 87 0.299208
+JICAEBDHGF -> 97 0.342626
+DHBEGFACIJ -> 99 0.299208
+DHBEGCFAJI -> 105 0.299208
+DHBEGCFAJI -> 105 0.299208
+DHBEGFAJIC -> 107 0.299208
+DHBEGFCAJI -> 112 0.299208
+DHBEGFCAJI -> 112 0.299208
+DHBEGFCAIJ -> 113 0.299208
+--------seleccion de padres--------
+padre 1   madre 4
+---------Cuzamiento OBX---------------
+padre: DHBEAFGCIJ
+madre  DHBEGCFAJI
+---posiciones seleccionadas---
+pos2 p1:B p2:B
+pos3 p1:E p2:E
+pos4 p1:A p2:G
+pos5 p1:F p2:C
+pos7 p1:C p2:A
+pos8 p1:I p2:J
+
+hijo1  DHBECFGAIJ
+hijo2  DHBEAGFCJI
+mutacion hijo 1: DHBCGFAEIJ 93
+mutacion hijo 2: DHBEACFGJI 128
+generacion:67
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.290393
+DHBEAFGCIJ -> 87 0.290393
+DHBCGFAEIJ -> 93 0.290393
+JICAEBDHGF -> 97 0.332532
+DHBEGFACIJ -> 99 0.290393
+DHBEGCFAJI -> 105 0.290393
+DHBEGCFAJI -> 105 0.290393
+DHBEGFAJIC -> 107 0.290393
+DHBEGFCAJI -> 112 0.290393
+DHBEGFCAJI -> 112 0.290393
+--------seleccion de padres--------
+padre 2   madre 1
+---------Cuzamiento OBX---------------
+padre: DHBCGFAEIJ
+madre  DHBEAFGCIJ
+---posiciones seleccionadas---
+pos0 p1:D p2:D
+pos1 p1:H p2:H
+pos2 p1:B p2:B
+pos3 p1:C p2:E
+pos4 p1:G p2:A
+pos5 p1:F p2:F
+pos6 p1:A p2:G
+pos7 p1:E p2:C
+pos8 p1:I p2:I
+pos9 p1:J p2:J
+
+hijo1  DHBEAFGCIJ
+hijo2  DHBCGFAEIJ
+mutacion hijo 1: DHBEAFGCIJ 87
+mutacion hijo 2: DHBCGFAEIJ 93
+generacion:66
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.282083
+DHBEAFGCIJ -> 87 0.282083
+DHBEAFGCIJ -> 87 0.282083
+DHBCGFAEIJ -> 93 0.282083
+DHBCGFAEIJ -> 93 0.282083
+JICAEBDHGF -> 97 0.323016
+DHBEGFACIJ -> 99 0.282083
+DHBEGCFAJI -> 105 0.282083
+DHBEGCFAJI -> 105 0.282083
+DHBEGFAJIC -> 107 0.282083
+--------seleccion de padres--------
+padre 2   madre 6
+---------Cuzamiento OBX---------------
+padre: DHBEAFGCIJ
+madre  DHBEGFACIJ
+---posiciones seleccionadas---
+pos2 p1:B p2:B
+pos4 p1:A p2:G
+pos8 p1:I p2:I
+pos9 p1:J p2:J
+
+hijo1  DHBEAFGCIJ
+hijo2  DHBEGFACIJ
+mutacion hijo 1: DHBEAFGCIJ 87
+mutacion hijo 2: DHBEGFACIJ 99
+generacion:65
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.274235
+DHBEAFGCIJ -> 87 0.274235
+DHBEAFGCIJ -> 87 0.274235
+DHBEAFGCIJ -> 87 0.274235
+DHBCGFAEIJ -> 93 0.274235
+DHBCGFAEIJ -> 93 0.274235
+JICAEBDHGF -> 97 0.314029
+DHBEGFACIJ -> 99 0.274235
+DHBEGFACIJ -> 99 0.274235
+DHBEGCFAJI -> 105 0.274235
+--------seleccion de padres--------
+padre 3   madre 1
+---------Cuzamiento OBX---------------
+padre: DHBEAFGCIJ
+madre  DHBEAFGCIJ
+---posiciones seleccionadas---
+pos0 p1:D p2:D
+pos1 p1:H p2:H
+pos4 p1:A p2:A
+pos5 p1:F p2:F
+pos7 p1:C p2:C
+pos8 p1:I p2:I
+
+hijo1  DHBEAFGCIJ
+hijo2  DHBEAFGCIJ
+mutacion hijo 1: DHBEAFGCIJ 87
+mutacion hijo 2: DHBEAFGCIJ 87
+generacion:64
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.266812
+DHBEAFGCIJ -> 87 0.266812
+DHBEAFGCIJ -> 87 0.266812
+DHBEAFGCIJ -> 87 0.266812
+DHBEAFGCIJ -> 87 0.266812
+DHBEAFGCIJ -> 87 0.266812
+DHBCGFAEIJ -> 93 0.266812
+DHBCGFAEIJ -> 93 0.266812
+JICAEBDHGF -> 97 0.305529
+DHBEGFACIJ -> 99 0.266812
+--------seleccion de padres--------
+padre 5   madre 1
+---------Cuzamiento OBX---------------
+padre: DHBEAFGCIJ
+madre  DHBEAFGCIJ
+---posiciones seleccionadas---
+pos1 p1:H p2:H
+pos2 p1:B p2:B
+pos3 p1:E p2:E
+pos5 p1:F p2:F
+pos6 p1:G p2:G
+pos7 p1:C p2:C
+pos8 p1:I p2:I
+pos9 p1:J p2:J
+
+hijo1  DHBEAFGCIJ
+hijo2  DHBEAFGCIJ
+mutacion hijo 1: DHBEAFGCIJ 87
+mutacion hijo 2: DHBEAFGCIJ 87
+generacion:63
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.259878
+DHBEAFGCIJ -> 87 0.259878
+DHBEAFGCIJ -> 87 0.259878
+DHBEAFGCIJ -> 87 0.259878
+DHBEAFGCIJ -> 87 0.259878
+DHBEAFGCIJ -> 87 0.259878
+DHBEAFGCIJ -> 87 0.259878
+DHBEAFGCIJ -> 87 0.259878
+DHBCGFAEIJ -> 93 0.259878
+DHBCGFAEIJ -> 93 0.259878
+--------seleccion de padres--------
+padre 7   madre 6
+---------Cuzamiento OBX---------------
+padre: DHBEAFGCIJ
+madre  DHBEAFGCIJ
+---posiciones seleccionadas---
+pos0 p1:D p2:D
+pos5 p1:F p2:F
+pos7 p1:C p2:C
+pos8 p1:I p2:I
+
+hijo1  DHBEAFGCIJ
+hijo2  DHBEAFGCIJ
+mutacion hijo 1: DHBEAFGCIJ 87
+mutacion hijo 2: DHBEAFGCIJ 87
+generacion:62
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.253295
+DHBEAFGCIJ -> 87 0.253295
+DHBEAFGCIJ -> 87 0.253295
+DHBEAFGCIJ -> 87 0.253295
+DHBEAFGCIJ -> 87 0.253295
+DHBEAFGCIJ -> 87 0.253295
+DHBEAFGCIJ -> 87 0.253295
+DHBEAFGCIJ -> 87 0.253295
+DHBEAFGCIJ -> 87 0.253295
+DHBEAFGCIJ -> 87 0.253295
+--------seleccion de padres--------
+padre 4   madre 10
+---------Cuzamiento OBX---------------
+padre: DHBEAFGCIJ
+madre  DHBCGFAEIJ
+---posiciones seleccionadas---
+pos0 p1:D p2:D
+pos1 p1:H p2:H
+pos3 p1:E p2:C
+pos8 p1:I p2:I
+
+hijo1  DHBEAFGCIJ
+hijo2  DHBCGFAEIJ
+mutacion hijo 1: DHBEAFGCIJ 87
+mutacion hijo 2: DHBCGFAEIJ 93
+generacion:61
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.247038
+DHBEAFGCIJ -> 87 0.247038
+DHBEAFGCIJ -> 87 0.247038
+DHBEAFGCIJ -> 87 0.247038
+DHBEAFGCIJ -> 87 0.247038
+DHBEAFGCIJ -> 87 0.247038
+DHBEAFGCIJ -> 87 0.247038
+DHBEAFGCIJ -> 87 0.247038
+DHBEAFGCIJ -> 87 0.247038
+DHBEAFGCIJ -> 87 0.247038
+--------seleccion de padres--------
+padre 5   madre 3
+---------Cuzamiento OBX---------------
+padre: DHBEAFGCIJ
+madre  DHBEAFGCIJ
+---posiciones seleccionadas---
+pos2 p1:B p2:B
+pos4 p1:A p2:A
+
+hijo1  DHBEAFGCIJ
+hijo2  DHBEAFGCIJ
+mutacion hijo 1: DHBEAFGCIJ 87
+mutacion hijo 2: DHBEAFGCIJ 87
+generacion:60
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.241082
+DHBEAFGCIJ -> 87 0.241082
+DHBEAFGCIJ -> 87 0.241082
+DHBEAFGCIJ -> 87 0.241082
+DHBEAFGCIJ -> 87 0.241082
+DHBEAFGCIJ -> 87 0.241082
+DHBEAFGCIJ -> 87 0.241082
+DHBEAFGCIJ -> 87 0.241082
+DHBEAFGCIJ -> 87 0.241082
+DHBEAFGCIJ -> 87 0.241082
+--------seleccion de padres--------
+padre 10   madre 2
+---------Cuzamiento OBX---------------
+padre: DHBEAFGCIJ
+madre  DHBEAFGCIJ
+---posiciones seleccionadas---
+pos1 p1:H p2:H
+pos3 p1:E p2:E
+pos7 p1:C p2:C
+pos8 p1:I p2:I
+
+hijo1  DHBEAFGCIJ
+hijo2  DHBEAFGCIJ
+mutacion hijo 1: DHBEAFGCIJ 87
+mutacion hijo 2: DHBEAFGCIJ 87
+generacion:59
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.235407
+DHBEAFGCIJ -> 87 0.235407
+DHBEAFGCIJ -> 87 0.235407
+DHBEAFGCIJ -> 87 0.235407
+DHBEAFGCIJ -> 87 0.235407
+DHBEAFGCIJ -> 87 0.235407
+DHBEAFGCIJ -> 87 0.235407
+DHBEAFGCIJ -> 87 0.235407
+DHBEAFGCIJ -> 87 0.235407
+DHBEAFGCIJ -> 87 0.235407
+--------seleccion de padres--------
+padre 1   madre 9
+---------Cuzamiento OBX---------------
+padre: DHBEAFGCIJ
+madre  DHBEAFGCIJ
+---posiciones seleccionadas---
+pos0 p1:D p2:D
+pos2 p1:B p2:B
+pos4 p1:A p2:A
+pos5 p1:F p2:F
+pos6 p1:G p2:G
+pos7 p1:C p2:C
+pos8 p1:I p2:I
+pos9 p1:J p2:J
+
+hijo1  DHBEAFGCIJ
+hijo2  DHBEAFGCIJ
+mutacion hijo 1: DHBEAFGCIJ 87
+mutacion hijo 2: DHBEAFGCIJ 87
+generacion:58
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.229993
+DHBEAFGCIJ -> 87 0.229993
+DHBEAFGCIJ -> 87 0.229993
+DHBEAFGCIJ -> 87 0.229993
+DHBEAFGCIJ -> 87 0.229993
+DHBEAFGCIJ -> 87 0.229993
+DHBEAFGCIJ -> 87 0.229993
+DHBEAFGCIJ -> 87 0.229993
+DHBEAFGCIJ -> 87 0.229993
+DHBEAFGCIJ -> 87 0.229993
+--------seleccion de padres--------
+padre 10   madre 2
+---------Cuzamiento OBX---------------
+padre: DHBEAFGCIJ
+madre  DHBEAFGCIJ
+---posiciones seleccionadas---
+pos1 p1:H p2:H
+pos2 p1:B p2:B
+pos6 p1:G p2:G
+pos7 p1:C p2:C
+pos8 p1:I p2:I
+
+hijo1  DHBEAFGCIJ
+hijo2  DHBEAFGCIJ
+mutacion hijo 1: DHBEAFGCIJ 87
+mutacion hijo 2: DHBEAFGCIJ 87
+generacion:57
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.224822
+DHBEAFGCIJ -> 87 0.224822
+DHBEAFGCIJ -> 87 0.224822
+DHBEAFGCIJ -> 87 0.224822
+DHBEAFGCIJ -> 87 0.224822
+DHBEAFGCIJ -> 87 0.224822
+DHBEAFGCIJ -> 87 0.224822
+DHBEAFGCIJ -> 87 0.224822
+DHBEAFGCIJ -> 87 0.224822
+DHBEAFGCIJ -> 87 0.224822
+--------seleccion de padres--------
+padre 8   madre 2
+---------Cuzamiento OBX---------------
+padre: DHBEAFGCIJ
+madre  DHBEAFGCIJ
+---posiciones seleccionadas---
+pos0 p1:D p2:D
+pos1 p1:H p2:H
+pos3 p1:E p2:E
+pos5 p1:F p2:F
+pos6 p1:G p2:G
+pos7 p1:C p2:C
+pos9 p1:J p2:J
+
+hijo1  DHBEAFGCIJ
+hijo2  DHBEAFGCIJ
+mutacion hijo 1: DHBEAFGCIJ 87
+mutacion hijo 2: DHBEAFGCIJ 87
+generacion:56
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.219879
+DHBEAFGCIJ -> 87 0.219879
+DHBEAFGCIJ -> 87 0.219879
+DHBEAFGCIJ -> 87 0.219879
+DHBEAFGCIJ -> 87 0.219879
+DHBEAFGCIJ -> 87 0.219879
+DHBEAFGCIJ -> 87 0.219879
+DHBEAFGCIJ -> 87 0.219879
+DHBEAFGCIJ -> 87 0.219879
+DHBEAFGCIJ -> 87 0.219879
+--------seleccion de padres--------
+padre 1   madre 6
+---------Cuzamiento OBX---------------
+padre: DHBEAFGCIJ
+madre  DHBEAFGCIJ
+---posiciones seleccionadas---
+pos1 p1:H p2:H
+pos2 p1:B p2:B
+pos4 p1:A p2:A
+pos6 p1:G p2:G
+pos7 p1:C p2:C
+pos8 p1:I p2:I
+pos9 p1:J p2:J
+
+hijo1  DHBEAFGCIJ
+hijo2  DHBEAFGCIJ
+mutacion hijo 1: DHBEAFGCIJ 87
+mutacion hijo 2: DHBEAFGCIJ 87
+generacion:55
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.215148
+DHBEAFGCIJ -> 87 0.215148
+DHBEAFGCIJ -> 87 0.215148
+DHBEAFGCIJ -> 87 0.215148
+DHBEAFGCIJ -> 87 0.215148
+DHBEAFGCIJ -> 87 0.215148
+DHBEAFGCIJ -> 87 0.215148
+DHBEAFGCIJ -> 87 0.215148
+DHBEAFGCIJ -> 87 0.215148
+DHBEAFGCIJ -> 87 0.215148
+--------seleccion de padres--------
+padre 4   madre 10
+---------Cuzamiento OBX---------------
+padre: DHBEAFGCIJ
+madre  DHBEAFGCIJ
+---posiciones seleccionadas---
+pos4 p1:A p2:A
+pos6 p1:G p2:G
+pos7 p1:C p2:C
+pos8 p1:I p2:I
+
+hijo1  DHBEAFGCIJ
+hijo2  DHBEAFGCIJ
+mutacion hijo 1: DHBEAFGCIJ 87
+mutacion hijo 2: DHBEAFGCIJ 87
+generacion:54
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.210617
+DHBEAFGCIJ -> 87 0.210617
+DHBEAFGCIJ -> 87 0.210617
+DHBEAFGCIJ -> 87 0.210617
+DHBEAFGCIJ -> 87 0.210617
+DHBEAFGCIJ -> 87 0.210617
+DHBEAFGCIJ -> 87 0.210617
+DHBEAFGCIJ -> 87 0.210617
+DHBEAFGCIJ -> 87 0.210617
+DHBEAFGCIJ -> 87 0.210617
+--------seleccion de padres--------
+padre 6   madre 5
+---------Cuzamiento OBX---------------
+padre: DHBEAFGCIJ
+madre  DHBEAFGCIJ
+---posiciones seleccionadas---
+pos1 p1:H p2:H
+pos2 p1:B p2:B
+pos3 p1:E p2:E
+pos4 p1:A p2:A
+pos7 p1:C p2:C
+pos9 p1:J p2:J
+
+hijo1  DHBEAFGCIJ
+hijo2  DHBEAFGCIJ
+mutacion hijo 1: DHBEAFGCIJ 87
+mutacion hijo 2: DHBEAFGCIJ 87
+generacion:53
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.206272
+DHBEAFGCIJ -> 87 0.206272
+DHBEAFGCIJ -> 87 0.206272
+DHBEAFGCIJ -> 87 0.206272
+DHBEAFGCIJ -> 87 0.206272
+DHBEAFGCIJ -> 87 0.206272
+DHBEAFGCIJ -> 87 0.206272
+DHBEAFGCIJ -> 87 0.206272
+DHBEAFGCIJ -> 87 0.206272
+DHBEAFGCIJ -> 87 0.206272
+--------seleccion de padres--------
+padre 10   madre 5
+---------Cuzamiento OBX---------------
+padre: DHBEAFGCIJ
+madre  DHBEAFGCIJ
+---posiciones seleccionadas---
+pos4 p1:A p2:A
+pos5 p1:F p2:F
+pos6 p1:G p2:G
+pos7 p1:C p2:C
+pos8 p1:I p2:I
+
+hijo1  DHBEAFGCIJ
+hijo2  DHBEAFGCIJ
+mutacion hijo 1: DHBEAFGCIJ 87
+mutacion hijo 2: DHBEAFGCIJ 87
+generacion:52
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.202104
+DHBEAFGCIJ -> 87 0.202104
+DHBEAFGCIJ -> 87 0.202104
+DHBEAFGCIJ -> 87 0.202104
+DHBEAFGCIJ -> 87 0.202104
+DHBEAFGCIJ -> 87 0.202104
+DHBEAFGCIJ -> 87 0.202104
+DHBEAFGCIJ -> 87 0.202104
+DHBEAFGCIJ -> 87 0.202104
+DHBEAFGCIJ -> 87 0.202104
+--------seleccion de padres--------
+padre 10   madre 4
+---------Cuzamiento OBX---------------
+padre: DHBEAFGCIJ
+madre  DHBEAFGCIJ
+---posiciones seleccionadas---
+pos2 p1:B p2:B
+pos3 p1:E p2:E
+pos5 p1:F p2:F
+pos8 p1:I p2:I
+
+hijo1  DHBEAFGCIJ
+hijo2  DHBEAFGCIJ
+mutacion hijo 1: DHBEAFGCIJ 87
+mutacion hijo 2: DHBEAFGCIJ 87
+generacion:51
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.1981
+DHBEAFGCIJ -> 87 0.1981
+DHBEAFGCIJ -> 87 0.1981
+DHBEAFGCIJ -> 87 0.1981
+DHBEAFGCIJ -> 87 0.1981
+DHBEAFGCIJ -> 87 0.1981
+DHBEAFGCIJ -> 87 0.1981
+DHBEAFGCIJ -> 87 0.1981
+DHBEAFGCIJ -> 87 0.1981
+DHBEAFGCIJ -> 87 0.1981
+--------seleccion de padres--------
+padre 7   madre 1
+---------Cuzamiento OBX---------------
+padre: DHBEAFGCIJ
+madre  DHBEAFGCIJ
+---posiciones seleccionadas---
+pos0 p1:D p2:D
+pos2 p1:B p2:B
+pos3 p1:E p2:E
+pos4 p1:A p2:A
+pos5 p1:F p2:F
+pos6 p1:G p2:G
+pos8 p1:I p2:I
+pos9 p1:J p2:J
+
+hijo1  DHBEAFGCIJ
+hijo2  DHBEAFGCIJ
+mutacion hijo 1: DHBEAFGCIJ 87
+mutacion hijo 2: DHBEAFGCIJ 87
+generacion:50
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.194252
+DHBEAFGCIJ -> 87 0.194252
+DHBEAFGCIJ -> 87 0.194252
+DHBEAFGCIJ -> 87 0.194252
+DHBEAFGCIJ -> 87 0.194252
+DHBEAFGCIJ -> 87 0.194252
+DHBEAFGCIJ -> 87 0.194252
+DHBEAFGCIJ -> 87 0.194252
+DHBEAFGCIJ -> 87 0.194252
+DHBEAFGCIJ -> 87 0.194252
+--------seleccion de padres--------
+padre 9   madre 4
+---------Cuzamiento OBX---------------
+padre: DHBEAFGCIJ
+madre  DHBEAFGCIJ
+---posiciones seleccionadas---
+pos0 p1:D p2:D
+pos6 p1:G p2:G
+pos8 p1:I p2:I
+
+hijo1  DHBEAFGCIJ
+hijo2  DHBEAFGCIJ
+mutacion hijo 1: DHBEAFGCIJ 87
+mutacion hijo 2: DHBEAFGCIJ 87
+generacion:49
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.19055
+DHBEAFGCIJ -> 87 0.19055
+DHBEAFGCIJ -> 87 0.19055
+DHBEAFGCIJ -> 87 0.19055
+DHBEAFGCIJ -> 87 0.19055
+DHBEAFGCIJ -> 87 0.19055
+DHBEAFGCIJ -> 87 0.19055
+DHBEAFGCIJ -> 87 0.19055
+DHBEAFGCIJ -> 87 0.19055
+DHBEAFGCIJ -> 87 0.19055
+--------seleccion de padres--------
+padre 4   madre 7
+---------Cuzamiento OBX---------------
+padre: DHBEAFGCIJ
+madre  DHBEAFGCIJ
+---posiciones seleccionadas---
+pos0 p1:D p2:D
+pos2 p1:B p2:B
+pos4 p1:A p2:A
+pos5 p1:F p2:F
+pos7 p1:C p2:C
+pos9 p1:J p2:J
+
+hijo1  DHBEAFGCIJ
+hijo2  DHBEAFGCIJ
+mutacion hijo 1: DHBEAFGCIJ 87
+mutacion hijo 2: DHBEAFGCIJ 87
+generacion:48
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.186987
+DHBEAFGCIJ -> 87 0.186987
+DHBEAFGCIJ -> 87 0.186987
+DHBEAFGCIJ -> 87 0.186987
+DHBEAFGCIJ -> 87 0.186987
+DHBEAFGCIJ -> 87 0.186987
+DHBEAFGCIJ -> 87 0.186987
+DHBEAFGCIJ -> 87 0.186987
+DHBEAFGCIJ -> 87 0.186987
+DHBEAFGCIJ -> 87 0.186987
+--------seleccion de padres--------
+padre 2   madre 9
+---------Cuzamiento OBX---------------
+padre: DHBEAFGCIJ
+madre  DHBEAFGCIJ
+---posiciones seleccionadas---
+pos1 p1:H p2:H
+pos2 p1:B p2:B
+pos4 p1:A p2:A
+pos5 p1:F p2:F
+pos6 p1:G p2:G
+pos7 p1:C p2:C
+pos8 p1:I p2:I
+pos9 p1:J p2:J
+
+hijo1  DHBEAFGCIJ
+hijo2  DHBEAFGCIJ
+mutacion hijo 1: DHBEAFGCIJ 87
+mutacion hijo 2: DHBEAFGCIJ 87
+generacion:47
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.183555
+DHBEAFGCIJ -> 87 0.183555
+DHBEAFGCIJ -> 87 0.183555
+DHBEAFGCIJ -> 87 0.183555
+DHBEAFGCIJ -> 87 0.183555
+DHBEAFGCIJ -> 87 0.183555
+DHBEAFGCIJ -> 87 0.183555
+DHBEAFGCIJ -> 87 0.183555
+DHBEAFGCIJ -> 87 0.183555
+DHBEAFGCIJ -> 87 0.183555
+--------seleccion de padres--------
+padre 8   madre 5
+---------Cuzamiento OBX---------------
+padre: DHBEAFGCIJ
+madre  DHBEAFGCIJ
+---posiciones seleccionadas---
+pos3 p1:E p2:E
+pos7 p1:C p2:C
+pos9 p1:J p2:J
+
+hijo1  DHBEAFGCIJ
+hijo2  DHBEAFGCIJ
+mutacion hijo 1: DHBEAFGCIJ 87
+mutacion hijo 2: DHBEAFGCIJ 87
+generacion:46
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.180246
+DHBEAFGCIJ -> 87 0.180246
+DHBEAFGCIJ -> 87 0.180246
+DHBEAFGCIJ -> 87 0.180246
+DHBEAFGCIJ -> 87 0.180246
+DHBEAFGCIJ -> 87 0.180246
+DHBEAFGCIJ -> 87 0.180246
+DHBEAFGCIJ -> 87 0.180246
+DHBEAFGCIJ -> 87 0.180246
+DHBEAFGCIJ -> 87 0.180246
+--------seleccion de padres--------
+padre 2   madre 5
+---------Cuzamiento OBX---------------
+padre: DHBEAFGCIJ
+madre  DHBEAFGCIJ
+---posiciones seleccionadas---
+pos1 p1:H p2:H
+pos2 p1:B p2:B
+pos3 p1:E p2:E
+pos7 p1:C p2:C
+pos8 p1:I p2:I
+pos9 p1:J p2:J
+
+hijo1  DHBEAFGCIJ
+hijo2  DHBEAFGCIJ
+mutacion hijo 1: DHBEAFGCIJ 87
+mutacion hijo 2: DHBEAFGCIJ 87
+generacion:45
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.177055
+DHBEAFGCIJ -> 87 0.177055
+DHBEAFGCIJ -> 87 0.177055
+DHBEAFGCIJ -> 87 0.177055
+DHBEAFGCIJ -> 87 0.177055
+DHBEAFGCIJ -> 87 0.177055
+DHBEAFGCIJ -> 87 0.177055
+DHBEAFGCIJ -> 87 0.177055
+DHBEAFGCIJ -> 87 0.177055
+DHBEAFGCIJ -> 87 0.177055
+--------seleccion de padres--------
+padre 2   madre 8
+---------Cuzamiento OBX---------------
+padre: DHBEAFGCIJ
+madre  DHBEAFGCIJ
+---posiciones seleccionadas---
+pos5 p1:F p2:F
+pos7 p1:C p2:C
+pos8 p1:I p2:I
+pos9 p1:J p2:J
+
+hijo1  DHBEAFGCIJ
+hijo2  DHBEAFGCIJ
+mutacion hijo 1: DHBEAFGCIJ 87
+mutacion hijo 2: DHBEAFGCIJ 87
+generacion:44
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.173975
+DHBEAFGCIJ -> 87 0.173975
+DHBEAFGCIJ -> 87 0.173975
+DHBEAFGCIJ -> 87 0.173975
+DHBEAFGCIJ -> 87 0.173975
+DHBEAFGCIJ -> 87 0.173975
+DHBEAFGCIJ -> 87 0.173975
+DHBEAFGCIJ -> 87 0.173975
+DHBEAFGCIJ -> 87 0.173975
+DHBEAFGCIJ -> 87 0.173975
+--------seleccion de padres--------
+padre 4   madre 9
+---------Cuzamiento OBX---------------
+padre: DHBEAFGCIJ
+madre  DHBEAFGCIJ
+---posiciones seleccionadas---
+pos0 p1:D p2:D
+pos2 p1:B p2:B
+pos4 p1:A p2:A
+pos6 p1:G p2:G
+pos7 p1:C p2:C
+
+hijo1  DHBEAFGCIJ
+hijo2  DHBEAFGCIJ
+mutacion hijo 1: DHBEAFGCIJ 87
+mutacion hijo 2: DHBEAFGCIJ 87
+generacion:43
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.171
+DHBEAFGCIJ -> 87 0.171
+DHBEAFGCIJ -> 87 0.171
+DHBEAFGCIJ -> 87 0.171
+DHBEAFGCIJ -> 87 0.171
+DHBEAFGCIJ -> 87 0.171
+DHBEAFGCIJ -> 87 0.171
+DHBEAFGCIJ -> 87 0.171
+DHBEAFGCIJ -> 87 0.171
+DHBEAFGCIJ -> 87 0.171
+--------seleccion de padres--------
+padre 1   madre 5
+---------Cuzamiento OBX---------------
+padre: DHBEAFGCIJ
+madre  DHBEAFGCIJ
+---posiciones seleccionadas---
+pos0 p1:D p2:D
+pos2 p1:B p2:B
+pos3 p1:E p2:E
+pos6 p1:G p2:G
+pos9 p1:J p2:J
+
+hijo1  DHBEAFGCIJ
+hijo2  DHBEAFGCIJ
+mutacion hijo 1: DHBEAFGCIJ 87
+mutacion hijo 2: DHBEAFGCIJ 87
+generacion:42
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.168125
+DHBEAFGCIJ -> 87 0.168125
+DHBEAFGCIJ -> 87 0.168125
+DHBEAFGCIJ -> 87 0.168125
+DHBEAFGCIJ -> 87 0.168125
+DHBEAFGCIJ -> 87 0.168125
+DHBEAFGCIJ -> 87 0.168125
+DHBEAFGCIJ -> 87 0.168125
+DHBEAFGCIJ -> 87 0.168125
+DHBEAFGCIJ -> 87 0.168125
+--------seleccion de padres--------
+padre 10   madre 2
+---------Cuzamiento OBX---------------
+padre: DHBEAFGCIJ
+madre  DHBEAFGCIJ
+---posiciones seleccionadas---
+pos1 p1:H p2:H
+pos9 p1:J p2:J
+
+hijo1  DHBEAFGCIJ
+hijo2  DHBEAFGCIJ
+mutacion hijo 1: DHBEAFGCIJ 87
+mutacion hijo 2: DHBEAFGCIJ 87
+generacion:41
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.165345
+DHBEAFGCIJ -> 87 0.165345
+DHBEAFGCIJ -> 87 0.165345
+DHBEAFGCIJ -> 87 0.165345
+DHBEAFGCIJ -> 87 0.165345
+DHBEAFGCIJ -> 87 0.165345
+DHBEAFGCIJ -> 87 0.165345
+DHBEAFGCIJ -> 87 0.165345
+DHBEAFGCIJ -> 87 0.165345
+DHBEAFGCIJ -> 87 0.165345
+--------seleccion de padres--------
+padre 5   madre 3
+---------Cuzamiento OBX---------------
+padre: DHBEAFGCIJ
+madre  DHBEAFGCIJ
+---posiciones seleccionadas---
+pos0 p1:D p2:D
+pos3 p1:E p2:E
+pos4 p1:A p2:A
+pos6 p1:G p2:G
+pos9 p1:J p2:J
+
+hijo1  DHBEAFGCIJ
+hijo2  DHBEAFGCIJ
+mutacion hijo 1: DHBEAFGCIJ 87
+mutacion hijo 2: DHBEAFGCIJ 87
+generacion:40
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.162656
+DHBEAFGCIJ -> 87 0.162656
+DHBEAFGCIJ -> 87 0.162656
+DHBEAFGCIJ -> 87 0.162656
+DHBEAFGCIJ -> 87 0.162656
+DHBEAFGCIJ -> 87 0.162656
+DHBEAFGCIJ -> 87 0.162656
+DHBEAFGCIJ -> 87 0.162656
+DHBEAFGCIJ -> 87 0.162656
+DHBEAFGCIJ -> 87 0.162656
+--------seleccion de padres--------
+padre 4   madre 9
+---------Cuzamiento OBX---------------
+padre: DHBEAFGCIJ
+madre  DHBEAFGCIJ
+---posiciones seleccionadas---
+pos0 p1:D p2:D
+pos4 p1:A p2:A
+pos5 p1:F p2:F
+pos6 p1:G p2:G
+pos7 p1:C p2:C
+
+hijo1  DHBEAFGCIJ
+hijo2  DHBEAFGCIJ
+mutacion hijo 1: DHBEAFGCIJ 87
+mutacion hijo 2: DHBEAFGCIJ 87
+generacion:39
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.160052
+DHBEAFGCIJ -> 87 0.160052
+DHBEAFGCIJ -> 87 0.160052
+DHBEAFGCIJ -> 87 0.160052
+DHBEAFGCIJ -> 87 0.160052
+DHBEAFGCIJ -> 87 0.160052
+DHBEAFGCIJ -> 87 0.160052
+DHBEAFGCIJ -> 87 0.160052
+DHBEAFGCIJ -> 87 0.160052
+DHBEAFGCIJ -> 87 0.160052
+--------seleccion de padres--------
+padre 6   madre 5
+---------Cuzamiento OBX---------------
+padre: DHBEAFGCIJ
+madre  DHBEAFGCIJ
+---posiciones seleccionadas---
+pos0 p1:D p2:D
+pos9 p1:J p2:J
+
+hijo1  DHBEAFGCIJ
+hijo2  DHBEAFGCIJ
+mutacion hijo 1: DHBEAFGCIJ 87
+mutacion hijo 2: DHBEAFGCIJ 87
+generacion:38
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.157531
+DHBEAFGCIJ -> 87 0.157531
+DHBEAFGCIJ -> 87 0.157531
+DHBEAFGCIJ -> 87 0.157531
+DHBEAFGCIJ -> 87 0.157531
+DHBEAFGCIJ -> 87 0.157531
+DHBEAFGCIJ -> 87 0.157531
+DHBEAFGCIJ -> 87 0.157531
+DHBEAFGCIJ -> 87 0.157531
+DHBEAFGCIJ -> 87 0.157531
+--------seleccion de padres--------
+padre 8   madre 10
+---------Cuzamiento OBX---------------
+padre: DHBEAFGCIJ
+madre  DHBEAFGCIJ
+---posiciones seleccionadas---
+pos0 p1:D p2:D
+pos7 p1:C p2:C
+
+hijo1  DHBEAFGCIJ
+hijo2  DHBEAFGCIJ
+mutacion hijo 1: DHBEAFGCIJ 87
+mutacion hijo 2: DHBEAFGCIJ 87
+generacion:37
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.155088
+DHBEAFGCIJ -> 87 0.155088
+DHBEAFGCIJ -> 87 0.155088
+DHBEAFGCIJ -> 87 0.155088
+DHBEAFGCIJ -> 87 0.155088
+DHBEAFGCIJ -> 87 0.155088
+DHBEAFGCIJ -> 87 0.155088
+DHBEAFGCIJ -> 87 0.155088
+DHBEAFGCIJ -> 87 0.155088
+DHBEAFGCIJ -> 87 0.155088
+--------seleccion de padres--------
+padre 9   madre 7
+---------Cuzamiento OBX---------------
+padre: DHBEAFGCIJ
+madre  DHBEAFGCIJ
+---posiciones seleccionadas---
+pos0 p1:D p2:D
+pos3 p1:E p2:E
+pos4 p1:A p2:A
+pos5 p1:F p2:F
+pos6 p1:G p2:G
+
+hijo1  DHBEAFGCIJ
+hijo2  DHBEAFGCIJ
+mutacion hijo 1: DHBEAFGCIJ 87
+mutacion hijo 2: DHBEAFGCIJ 87
+generacion:36
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.152719
+DHBEAFGCIJ -> 87 0.152719
+DHBEAFGCIJ -> 87 0.152719
+DHBEAFGCIJ -> 87 0.152719
+DHBEAFGCIJ -> 87 0.152719
+DHBEAFGCIJ -> 87 0.152719
+DHBEAFGCIJ -> 87 0.152719
+DHBEAFGCIJ -> 87 0.152719
+DHBEAFGCIJ -> 87 0.152719
+DHBEAFGCIJ -> 87 0.152719
+--------seleccion de padres--------
+padre 5   madre 3
+---------Cuzamiento OBX---------------
+padre: DHBEAFGCIJ
+madre  DHBEAFGCIJ
+---posiciones seleccionadas---
+pos7 p1:C p2:C
+pos9 p1:J p2:J
+
+hijo1  DHBEAFGCIJ
+hijo2  DHBEAFGCIJ
+mutacion hijo 1: DHBEAFGCIJ 87
+mutacion hijo 2: DHBEAFGCIJ 87
+generacion:35
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.150422
+DHBEAFGCIJ -> 87 0.150422
+DHBEAFGCIJ -> 87 0.150422
+DHBEAFGCIJ -> 87 0.150422
+DHBEAFGCIJ -> 87 0.150422
+DHBEAFGCIJ -> 87 0.150422
+DHBEAFGCIJ -> 87 0.150422
+DHBEAFGCIJ -> 87 0.150422
+DHBEAFGCIJ -> 87 0.150422
+DHBEAFGCIJ -> 87 0.150422
+--------seleccion de padres--------
+padre 6   madre 2
+---------Cuzamiento OBX---------------
+padre: DHBEAFGCIJ
+madre  DHBEAFGCIJ
+---posiciones seleccionadas---
+pos0 p1:D p2:D
+pos2 p1:B p2:B
+pos3 p1:E p2:E
+pos4 p1:A p2:A
+pos5 p1:F p2:F
+pos8 p1:I p2:I
+
+hijo1  DHBEAFGCIJ
+hijo2  DHBEAFGCIJ
+mutacion hijo 1: DHBEAFGCIJ 87
+mutacion hijo 2: DHBEAFGCIJ 87
+generacion:34
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.148193
+DHBEAFGCIJ -> 87 0.148193
+DHBEAFGCIJ -> 87 0.148193
+DHBEAFGCIJ -> 87 0.148193
+DHBEAFGCIJ -> 87 0.148193
+DHBEAFGCIJ -> 87 0.148193
+DHBEAFGCIJ -> 87 0.148193
+DHBEAFGCIJ -> 87 0.148193
+DHBEAFGCIJ -> 87 0.148193
+DHBEAFGCIJ -> 87 0.148193
+--------seleccion de padres--------
+padre 7   madre 1
+---------Cuzamiento OBX---------------
+padre: DHBEAFGCIJ
+madre  DHBEAFGCIJ
+---posiciones seleccionadas---
+pos1 p1:H p2:H
+pos5 p1:F p2:F
+pos6 p1:G p2:G
+pos9 p1:J p2:J
+
+hijo1  DHBEAFGCIJ
+hijo2  DHBEAFGCIJ
+mutacion hijo 1: DHBEAFGCIJ 87
+mutacion hijo 2: DHBEAFGCIJ 87
+generacion:33
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.146029
+DHBEAFGCIJ -> 87 0.146029
+DHBEAFGCIJ -> 87 0.146029
+DHBEAFGCIJ -> 87 0.146029
+DHBEAFGCIJ -> 87 0.146029
+DHBEAFGCIJ -> 87 0.146029
+DHBEAFGCIJ -> 87 0.146029
+DHBEAFGCIJ -> 87 0.146029
+DHBEAFGCIJ -> 87 0.146029
+DHBEAFGCIJ -> 87 0.146029
+--------seleccion de padres--------
+padre 5   madre 10
+---------Cuzamiento OBX---------------
+padre: DHBEAFGCIJ
+madre  DHBEAFGCIJ
+---posiciones seleccionadas---
+pos0 p1:D p2:D
+pos3 p1:E p2:E
+pos4 p1:A p2:A
+pos6 p1:G p2:G
+pos7 p1:C p2:C
+
+hijo1  DHBEAFGCIJ
+hijo2  DHBEAFGCIJ
+mutacion hijo 1: DHBEAFGCIJ 87
+mutacion hijo 2: DHBEAFGCIJ 87
+generacion:32
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.143927
+DHBEAFGCIJ -> 87 0.143927
+DHBEAFGCIJ -> 87 0.143927
+DHBEAFGCIJ -> 87 0.143927
+DHBEAFGCIJ -> 87 0.143927
+DHBEAFGCIJ -> 87 0.143927
+DHBEAFGCIJ -> 87 0.143927
+DHBEAFGCIJ -> 87 0.143927
+DHBEAFGCIJ -> 87 0.143927
+DHBEAFGCIJ -> 87 0.143927
+--------seleccion de padres--------
+padre 9   madre 8
+---------Cuzamiento OBX---------------
+padre: DHBEAFGCIJ
+madre  DHBEAFGCIJ
+---posiciones seleccionadas---
+pos1 p1:H p2:H
+pos3 p1:E p2:E
+pos5 p1:F p2:F
+pos7 p1:C p2:C
+
+hijo1  DHBEAFGCIJ
+hijo2  DHBEAFGCIJ
+mutacion hijo 1: DHBEAFGCIJ 87
+mutacion hijo 2: DHBEAFGCIJ 87
+generacion:31
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.141885
+DHBEAFGCIJ -> 87 0.141885
+DHBEAFGCIJ -> 87 0.141885
+DHBEAFGCIJ -> 87 0.141885
+DHBEAFGCIJ -> 87 0.141885
+DHBEAFGCIJ -> 87 0.141885
+DHBEAFGCIJ -> 87 0.141885
+DHBEAFGCIJ -> 87 0.141885
+DHBEAFGCIJ -> 87 0.141885
+DHBEAFGCIJ -> 87 0.141885
+--------seleccion de padres--------
+padre 10   madre 1
+---------Cuzamiento OBX---------------
+padre: DHBEAFGCIJ
+madre  DHBEAFGCIJ
+---posiciones seleccionadas---
+pos2 p1:B p2:B
+pos3 p1:E p2:E
+pos5 p1:F p2:F
+pos6 p1:G p2:G
+pos8 p1:I p2:I
+
+hijo1  DHBEAFGCIJ
+hijo2  DHBEAFGCIJ
+mutacion hijo 1: DHBEAFGCIJ 87
+mutacion hijo 2: DHBEAFGCIJ 87
+generacion:30
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.1399
+DHBEAFGCIJ -> 87 0.1399
+DHBEAFGCIJ -> 87 0.1399
+DHBEAFGCIJ -> 87 0.1399
+DHBEAFGCIJ -> 87 0.1399
+DHBEAFGCIJ -> 87 0.1399
+DHBEAFGCIJ -> 87 0.1399
+DHBEAFGCIJ -> 87 0.1399
+DHBEAFGCIJ -> 87 0.1399
+DHBEAFGCIJ -> 87 0.1399
+--------seleccion de padres--------
+padre 6   madre 4
+---------Cuzamiento OBX---------------
+padre: DHBEAFGCIJ
+madre  DHBEAFGCIJ
+---posiciones seleccionadas---
+pos1 p1:H p2:H
+pos4 p1:A p2:A
+pos6 p1:G p2:G
+
+hijo1  DHBEAFGCIJ
+hijo2  DHBEAFGCIJ
+mutacion hijo 1: DHBEAFGCIJ 87
+mutacion hijo 2: DHBEAFGCIJ 87
+generacion:29
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.13797
+DHBEAFGCIJ -> 87 0.13797
+DHBEAFGCIJ -> 87 0.13797
+DHBEAFGCIJ -> 87 0.13797
+DHBEAFGCIJ -> 87 0.13797
+DHBEAFGCIJ -> 87 0.13797
+DHBEAFGCIJ -> 87 0.13797
+DHBEAFGCIJ -> 87 0.13797
+DHBEAFGCIJ -> 87 0.13797
+DHBEAFGCIJ -> 87 0.13797
+--------seleccion de padres--------
+padre 9   madre 7
+---------Cuzamiento OBX---------------
+padre: DHBEAFGCIJ
+madre  DHBEAFGCIJ
+---posiciones seleccionadas---
+pos0 p1:D p2:D
+pos1 p1:H p2:H
+pos2 p1:B p2:B
+pos3 p1:E p2:E
+pos4 p1:A p2:A
+pos6 p1:G p2:G
+
+hijo1  DHBEAFGCIJ
+hijo2  DHBEAFGCIJ
+mutacion hijo 1: DHBEAFGCIJ 87
+mutacion hijo 2: DHBEAFGCIJ 87
+generacion:28
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.136092
+DHBEAFGCIJ -> 87 0.136092
+DHBEAFGCIJ -> 87 0.136092
+DHBEAFGCIJ -> 87 0.136092
+DHBEAFGCIJ -> 87 0.136092
+DHBEAFGCIJ -> 87 0.136092
+DHBEAFGCIJ -> 87 0.136092
+DHBEAFGCIJ -> 87 0.136092
+DHBEAFGCIJ -> 87 0.136092
+DHBEAFGCIJ -> 87 0.136092
+--------seleccion de padres--------
+padre 9   madre 10
+---------Cuzamiento OBX---------------
+padre: DHBEAFGCIJ
+madre  DHBEAFGCIJ
+---posiciones seleccionadas---
+pos0 p1:D p2:D
+pos2 p1:B p2:B
+pos3 p1:E p2:E
+pos4 p1:A p2:A
+pos5 p1:F p2:F
+pos8 p1:I p2:I
+pos9 p1:J p2:J
+
+hijo1  DHBEAFGCIJ
+hijo2  DHBEAFGCIJ
+mutacion hijo 1: DHBEAFGCIJ 87
+mutacion hijo 2: DHBEAFGCIJ 87
+generacion:27
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.134265
+DHBEAFGCIJ -> 87 0.134265
+DHBEAFGCIJ -> 87 0.134265
+DHBEAFGCIJ -> 87 0.134265
+DHBEAFGCIJ -> 87 0.134265
+DHBEAFGCIJ -> 87 0.134265
+DHBEAFGCIJ -> 87 0.134265
+DHBEAFGCIJ -> 87 0.134265
+DHBEAFGCIJ -> 87 0.134265
+DHBEAFGCIJ -> 87 0.134265
+--------seleccion de padres--------
+padre 2   madre 6
+---------Cuzamiento OBX---------------
+padre: DHBEAFGCIJ
+madre  DHBEAFGCIJ
+---posiciones seleccionadas---
+pos0 p1:D p2:D
+pos1 p1:H p2:H
+pos2 p1:B p2:B
+pos7 p1:C p2:C
+
+hijo1  DHBEAFGCIJ
+hijo2  DHBEAFGCIJ
+mutacion hijo 1: DHBEAFGCIJ 87
+mutacion hijo 2: DHBEAFGCIJ 87
+generacion:26
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.132486
+DHBEAFGCIJ -> 87 0.132486
+DHBEAFGCIJ -> 87 0.132486
+DHBEAFGCIJ -> 87 0.132486
+DHBEAFGCIJ -> 87 0.132486
+DHBEAFGCIJ -> 87 0.132486
+DHBEAFGCIJ -> 87 0.132486
+DHBEAFGCIJ -> 87 0.132486
+DHBEAFGCIJ -> 87 0.132486
+DHBEAFGCIJ -> 87 0.132486
+--------seleccion de padres--------
+padre 8   madre 3
+---------Cuzamiento OBX---------------
+padre: DHBEAFGCIJ
+madre  DHBEAFGCIJ
+---posiciones seleccionadas---
+pos0 p1:D p2:D
+pos2 p1:B p2:B
+pos4 p1:A p2:A
+pos5 p1:F p2:F
+pos7 p1:C p2:C
+
+hijo1  DHBEAFGCIJ
+hijo2  DHBEAFGCIJ
+mutacion hijo 1: DHBEAFGCIJ 87
+mutacion hijo 2: DHBEAFGCIJ 87
+generacion:25
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.130754
+DHBEAFGCIJ -> 87 0.130754
+DHBEAFGCIJ -> 87 0.130754
+DHBEAFGCIJ -> 87 0.130754
+DHBEAFGCIJ -> 87 0.130754
+DHBEAFGCIJ -> 87 0.130754
+DHBEAFGCIJ -> 87 0.130754
+DHBEAFGCIJ -> 87 0.130754
+DHBEAFGCIJ -> 87 0.130754
+DHBEAFGCIJ -> 87 0.130754
+--------seleccion de padres--------
+padre 8   madre 6
+---------Cuzamiento OBX---------------
+padre: DHBEAFGCIJ
+madre  DHBEAFGCIJ
+---posiciones seleccionadas---
+pos0 p1:D p2:D
+pos1 p1:H p2:H
+pos3 p1:E p2:E
+pos4 p1:A p2:A
+pos5 p1:F p2:F
+pos6 p1:G p2:G
+
+hijo1  DHBEAFGCIJ
+hijo2  DHBEAFGCIJ
+mutacion hijo 1: DHBEAFGCIJ 87
+mutacion hijo 2: DHBEAFGCIJ 87
+generacion:24
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.129066
+DHBEAFGCIJ -> 87 0.129066
+DHBEAFGCIJ -> 87 0.129066
+DHBEAFGCIJ -> 87 0.129066
+DHBEAFGCIJ -> 87 0.129066
+DHBEAFGCIJ -> 87 0.129066
+DHBEAFGCIJ -> 87 0.129066
+DHBEAFGCIJ -> 87 0.129066
+DHBEAFGCIJ -> 87 0.129066
+DHBEAFGCIJ -> 87 0.129066
+--------seleccion de padres--------
+padre 10   madre 8
+---------Cuzamiento OBX---------------
+padre: DHBEAFGCIJ
+madre  DHBEAFGCIJ
+---posiciones seleccionadas---
+pos0 p1:D p2:D
+pos4 p1:A p2:A
+pos7 p1:C p2:C
+
+hijo1  DHBEAFGCIJ
+hijo2  DHBEAFGCIJ
+mutacion hijo 1: DHBEAFGCIJ 87
+mutacion hijo 2: DHBEAFGCIJ 87
+generacion:23
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.127422
+DHBEAFGCIJ -> 87 0.127422
+DHBEAFGCIJ -> 87 0.127422
+DHBEAFGCIJ -> 87 0.127422
+DHBEAFGCIJ -> 87 0.127422
+DHBEAFGCIJ -> 87 0.127422
+DHBEAFGCIJ -> 87 0.127422
+DHBEAFGCIJ -> 87 0.127422
+DHBEAFGCIJ -> 87 0.127422
+DHBEAFGCIJ -> 87 0.127422
+--------seleccion de padres--------
+padre 6   madre 2
+---------Cuzamiento OBX---------------
+padre: DHBEAFGCIJ
+madre  DHBEAFGCIJ
+---posiciones seleccionadas---
+pos1 p1:H p2:H
+pos2 p1:B p2:B
+pos5 p1:F p2:F
+pos6 p1:G p2:G
+pos8 p1:I p2:I
+pos9 p1:J p2:J
+
+hijo1  DHBEAFGCIJ
+hijo2  DHBEAFGCIJ
+mutacion hijo 1: DHBEAFGCIJ 87
+mutacion hijo 2: DHBEAFGCIJ 87
+generacion:22
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.125818
+DHBEAFGCIJ -> 87 0.125818
+DHBEAFGCIJ -> 87 0.125818
+DHBEAFGCIJ -> 87 0.125818
+DHBEAFGCIJ -> 87 0.125818
+DHBEAFGCIJ -> 87 0.125818
+DHBEAFGCIJ -> 87 0.125818
+DHBEAFGCIJ -> 87 0.125818
+DHBEAFGCIJ -> 87 0.125818
+DHBEAFGCIJ -> 87 0.125818
+--------seleccion de padres--------
+padre 5   madre 1
+---------Cuzamiento OBX---------------
+padre: DHBEAFGCIJ
+madre  DHBEAFGCIJ
+---posiciones seleccionadas---
+pos0 p1:D p2:D
+pos2 p1:B p2:B
+pos3 p1:E p2:E
+pos4 p1:A p2:A
+pos5 p1:F p2:F
+pos7 p1:C p2:C
+pos9 p1:J p2:J
+
+hijo1  DHBEAFGCIJ
+hijo2  DHBEAFGCIJ
+mutacion hijo 1: DHBEAFGCIJ 87
+mutacion hijo 2: DHBEAFGCIJ 87
+generacion:21
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.124255
+DHBEAFGCIJ -> 87 0.124255
+DHBEAFGCIJ -> 87 0.124255
+DHBEAFGCIJ -> 87 0.124255
+DHBEAFGCIJ -> 87 0.124255
+DHBEAFGCIJ -> 87 0.124255
+DHBEAFGCIJ -> 87 0.124255
+DHBEAFGCIJ -> 87 0.124255
+DHBEAFGCIJ -> 87 0.124255
+DHBEAFGCIJ -> 87 0.124255
+--------seleccion de padres--------
+padre 2   madre 4
+---------Cuzamiento OBX---------------
+padre: DHBEAFGCIJ
+madre  DHBEAFGCIJ
+---posiciones seleccionadas---
+pos0 p1:D p2:D
+pos3 p1:E p2:E
+pos4 p1:A p2:A
+pos5 p1:F p2:F
+pos7 p1:C p2:C
+
+hijo1  DHBEAFGCIJ
+hijo2  DHBEAFGCIJ
+mutacion hijo 1: DHBEAFGCIJ 87
+mutacion hijo 2: DHBEAFGCIJ 87
+generacion:20
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.12273
+DHBEAFGCIJ -> 87 0.12273
+DHBEAFGCIJ -> 87 0.12273
+DHBEAFGCIJ -> 87 0.12273
+DHBEAFGCIJ -> 87 0.12273
+DHBEAFGCIJ -> 87 0.12273
+DHBEAFGCIJ -> 87 0.12273
+DHBEAFGCIJ -> 87 0.12273
+DHBEAFGCIJ -> 87 0.12273
+DHBEAFGCIJ -> 87 0.12273
+--------seleccion de padres--------
+padre 10   madre 9
+---------Cuzamiento OBX---------------
+padre: DHBEAFGCIJ
+madre  DHBEAFGCIJ
+---posiciones seleccionadas---
+pos2 p1:B p2:B
+pos4 p1:A p2:A
+pos7 p1:C p2:C
+pos9 p1:J p2:J
+
+hijo1  DHBEAFGCIJ
+hijo2  DHBEAFGCIJ
+mutacion hijo 1: DHBEAFGCIJ 87
+mutacion hijo 2: DHBEAFGCIJ 87
+generacion:19
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.121242
+DHBEAFGCIJ -> 87 0.121242
+DHBEAFGCIJ -> 87 0.121242
+DHBEAFGCIJ -> 87 0.121242
+DHBEAFGCIJ -> 87 0.121242
+DHBEAFGCIJ -> 87 0.121242
+DHBEAFGCIJ -> 87 0.121242
+DHBEAFGCIJ -> 87 0.121242
+DHBEAFGCIJ -> 87 0.121242
+DHBEAFGCIJ -> 87 0.121242
+--------seleccion de padres--------
+padre 10   madre 4
+---------Cuzamiento OBX---------------
+padre: DHBEAFGCIJ
+madre  DHBEAFGCIJ
+---posiciones seleccionadas---
+pos1 p1:H p2:H
+pos3 p1:E p2:E
+pos4 p1:A p2:A
+pos7 p1:C p2:C
+pos8 p1:I p2:I
+
+hijo1  DHBEAFGCIJ
+hijo2  DHBEAFGCIJ
+mutacion hijo 1: DHBEAFGCIJ 87
+mutacion hijo 2: DHBEAFGCIJ 87
+generacion:18
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.11979
+DHBEAFGCIJ -> 87 0.11979
+DHBEAFGCIJ -> 87 0.11979
+DHBEAFGCIJ -> 87 0.11979
+DHBEAFGCIJ -> 87 0.11979
+DHBEAFGCIJ -> 87 0.11979
+DHBEAFGCIJ -> 87 0.11979
+DHBEAFGCIJ -> 87 0.11979
+DHBEAFGCIJ -> 87 0.11979
+DHBEAFGCIJ -> 87 0.11979
+--------seleccion de padres--------
+padre 9   madre 3
+---------Cuzamiento OBX---------------
+padre: DHBEAFGCIJ
+madre  DHBEAFGCIJ
+---posiciones seleccionadas---
+pos0 p1:D p2:D
+pos1 p1:H p2:H
+pos3 p1:E p2:E
+pos6 p1:G p2:G
+pos8 p1:I p2:I
+
+hijo1  DHBEAFGCIJ
+hijo2  DHBEAFGCIJ
+mutacion hijo 1: DHBEAFGCIJ 87
+mutacion hijo 2: DHBEAFGCIJ 87
+generacion:17
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.118372
+DHBEAFGCIJ -> 87 0.118372
+DHBEAFGCIJ -> 87 0.118372
+DHBEAFGCIJ -> 87 0.118372
+DHBEAFGCIJ -> 87 0.118372
+DHBEAFGCIJ -> 87 0.118372
+DHBEAFGCIJ -> 87 0.118372
+DHBEAFGCIJ -> 87 0.118372
+DHBEAFGCIJ -> 87 0.118372
+DHBEAFGCIJ -> 87 0.118372
+--------seleccion de padres--------
+padre 10   madre 9
+---------Cuzamiento OBX---------------
+padre: DHBEAFGCIJ
+madre  DHBEAFGCIJ
+---posiciones seleccionadas---
+pos1 p1:H p2:H
+pos2 p1:B p2:B
+pos3 p1:E p2:E
+pos4 p1:A p2:A
+pos6 p1:G p2:G
+pos7 p1:C p2:C
+
+hijo1  DHBEAFGCIJ
+hijo2  DHBEAFGCIJ
+mutacion hijo 1: DHBEAFGCIJ 87
+mutacion hijo 2: DHBEAFGCIJ 87
+generacion:16
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.116987
+DHBEAFGCIJ -> 87 0.116987
+DHBEAFGCIJ -> 87 0.116987
+DHBEAFGCIJ -> 87 0.116987
+DHBEAFGCIJ -> 87 0.116987
+DHBEAFGCIJ -> 87 0.116987
+DHBEAFGCIJ -> 87 0.116987
+DHBEAFGCIJ -> 87 0.116987
+DHBEAFGCIJ -> 87 0.116987
+DHBEAFGCIJ -> 87 0.116987
+--------seleccion de padres--------
+padre 1   madre 5
+---------Cuzamiento OBX---------------
+padre: DHBEAFGCIJ
+madre  DHBEAFGCIJ
+---posiciones seleccionadas---
+pos0 p1:D p2:D
+pos2 p1:B p2:B
+pos4 p1:A p2:A
+pos5 p1:F p2:F
+pos6 p1:G p2:G
+pos7 p1:C p2:C
+pos8 p1:I p2:I
+
+hijo1  DHBEAFGCIJ
+hijo2  DHBEAFGCIJ
+mutacion hijo 1: DHBEAFGCIJ 87
+mutacion hijo 2: DHBEAFGCIJ 87
+generacion:15
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.115634
+DHBEAFGCIJ -> 87 0.115634
+DHBEAFGCIJ -> 87 0.115634
+DHBEAFGCIJ -> 87 0.115634
+DHBEAFGCIJ -> 87 0.115634
+DHBEAFGCIJ -> 87 0.115634
+DHBEAFGCIJ -> 87 0.115634
+DHBEAFGCIJ -> 87 0.115634
+DHBEAFGCIJ -> 87 0.115634
+DHBEAFGCIJ -> 87 0.115634
+--------seleccion de padres--------
+padre 8   madre 7
+---------Cuzamiento OBX---------------
+padre: DHBEAFGCIJ
+madre  DHBEAFGCIJ
+---posiciones seleccionadas---
+pos0 p1:D p2:D
+pos3 p1:E p2:E
+pos5 p1:F p2:F
+pos7 p1:C p2:C
+pos8 p1:I p2:I
+
+hijo1  DHBEAFGCIJ
+hijo2  DHBEAFGCIJ
+mutacion hijo 1: DHBEAFGCIJ 87
+mutacion hijo 2: DHBEAFGCIJ 87
+generacion:14
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.114312
+DHBEAFGCIJ -> 87 0.114312
+DHBEAFGCIJ -> 87 0.114312
+DHBEAFGCIJ -> 87 0.114312
+DHBEAFGCIJ -> 87 0.114312
+DHBEAFGCIJ -> 87 0.114312
+DHBEAFGCIJ -> 87 0.114312
+DHBEAFGCIJ -> 87 0.114312
+DHBEAFGCIJ -> 87 0.114312
+DHBEAFGCIJ -> 87 0.114312
+--------seleccion de padres--------
+padre 6   madre 1
+---------Cuzamiento OBX---------------
+padre: DHBEAFGCIJ
+madre  DHBEAFGCIJ
+---posiciones seleccionadas---
+pos3 p1:E p2:E
+pos5 p1:F p2:F
+pos8 p1:I p2:I
+
+hijo1  DHBEAFGCIJ
+hijo2  DHBEAFGCIJ
+mutacion hijo 1: DHBEAFGCIJ 87
+mutacion hijo 2: DHBEAFGCIJ 87
+generacion:13
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.11302
+DHBEAFGCIJ -> 87 0.11302
+DHBEAFGCIJ -> 87 0.11302
+DHBEAFGCIJ -> 87 0.11302
+DHBEAFGCIJ -> 87 0.11302
+DHBEAFGCIJ -> 87 0.11302
+DHBEAFGCIJ -> 87 0.11302
+DHBEAFGCIJ -> 87 0.11302
+DHBEAFGCIJ -> 87 0.11302
+DHBEAFGCIJ -> 87 0.11302
+--------seleccion de padres--------
+padre 2   madre 10
+---------Cuzamiento OBX---------------
+padre: DHBEAFGCIJ
+madre  DHBEAFGCIJ
+---posiciones seleccionadas---
+pos0 p1:D p2:D
+pos3 p1:E p2:E
+pos4 p1:A p2:A
+pos5 p1:F p2:F
+pos6 p1:G p2:G
+pos8 p1:I p2:I
+
+hijo1  DHBEAFGCIJ
+hijo2  DHBEAFGCIJ
+mutacion hijo 1: DHBEAFGCIJ 87
+mutacion hijo 2: DHBEAFGCIJ 87
+generacion:12
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.111757
+DHBEAFGCIJ -> 87 0.111757
+DHBEAFGCIJ -> 87 0.111757
+DHBEAFGCIJ -> 87 0.111757
+DHBEAFGCIJ -> 87 0.111757
+DHBEAFGCIJ -> 87 0.111757
+DHBEAFGCIJ -> 87 0.111757
+DHBEAFGCIJ -> 87 0.111757
+DHBEAFGCIJ -> 87 0.111757
+DHBEAFGCIJ -> 87 0.111757
+--------seleccion de padres--------
+padre 2   madre 1
+---------Cuzamiento OBX---------------
+padre: DHBEAFGCIJ
+madre  DHBEAFGCIJ
+---posiciones seleccionadas---
+pos1 p1:H p2:H
+pos3 p1:E p2:E
+pos7 p1:C p2:C
+pos8 p1:I p2:I
+pos9 p1:J p2:J
+
+hijo1  DHBEAFGCIJ
+hijo2  DHBEAFGCIJ
+mutacion hijo 1: DHBEAFGCIJ 87
+mutacion hijo 2: DHBEAFGCIJ 87
+generacion:11
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.110522
+DHBEAFGCIJ -> 87 0.110522
+DHBEAFGCIJ -> 87 0.110522
+DHBEAFGCIJ -> 87 0.110522
+DHBEAFGCIJ -> 87 0.110522
+DHBEAFGCIJ -> 87 0.110522
+DHBEAFGCIJ -> 87 0.110522
+DHBEAFGCIJ -> 87 0.110522
+DHBEAFGCIJ -> 87 0.110522
+DHBEAFGCIJ -> 87 0.110522
+--------seleccion de padres--------
+padre 10   madre 7
+---------Cuzamiento OBX---------------
+padre: DHBEAFGCIJ
+madre  DHBEAFGCIJ
+---posiciones seleccionadas---
+pos0 p1:D p2:D
+pos1 p1:H p2:H
+pos2 p1:B p2:B
+pos5 p1:F p2:F
+pos6 p1:G p2:G
+pos7 p1:C p2:C
+
+hijo1  DHBEAFGCIJ
+hijo2  DHBEAFGCIJ
+mutacion hijo 1: DHBEAFGCIJ 87
+mutacion hijo 2: DHBEAFGCIJ 87
+generacion:10
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.109314
+DHBEAFGCIJ -> 87 0.109314
+DHBEAFGCIJ -> 87 0.109314
+DHBEAFGCIJ -> 87 0.109314
+DHBEAFGCIJ -> 87 0.109314
+DHBEAFGCIJ -> 87 0.109314
+DHBEAFGCIJ -> 87 0.109314
+DHBEAFGCIJ -> 87 0.109314
+DHBEAFGCIJ -> 87 0.109314
+DHBEAFGCIJ -> 87 0.109314
+--------seleccion de padres--------
+padre 3   madre 9
+---------Cuzamiento OBX---------------
+padre: DHBEAFGCIJ
+madre  DHBEAFGCIJ
+---posiciones seleccionadas---
+pos2 p1:B p2:B
+pos3 p1:E p2:E
+pos4 p1:A p2:A
+pos5 p1:F p2:F
+pos6 p1:G p2:G
+pos8 p1:I p2:I
+
+hijo1  DHBEAFGCIJ
+hijo2  DHBEAFGCIJ
+mutacion hijo 1: DHBEAFGCIJ 87
+mutacion hijo 2: DHBEAFGCIJ 87
+generacion:9
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.108132
+DHBEAFGCIJ -> 87 0.108132
+DHBEAFGCIJ -> 87 0.108132
+DHBEAFGCIJ -> 87 0.108132
+DHBEAFGCIJ -> 87 0.108132
+DHBEAFGCIJ -> 87 0.108132
+DHBEAFGCIJ -> 87 0.108132
+DHBEAFGCIJ -> 87 0.108132
+DHBEAFGCIJ -> 87 0.108132
+DHBEAFGCIJ -> 87 0.108132
+--------seleccion de padres--------
+padre 6   madre 1
+---------Cuzamiento OBX---------------
+padre: DHBEAFGCIJ
+madre  DHBEAFGCIJ
+---posiciones seleccionadas---
+pos1 p1:H p2:H
+pos4 p1:A p2:A
+pos7 p1:C p2:C
+pos9 p1:J p2:J
+
+hijo1  DHBEAFGCIJ
+hijo2  DHBEAFGCIJ
+mutacion hijo 1: DHBEAFGCIJ 87
+mutacion hijo 2: DHBEAFGCIJ 87
+generacion:8
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.106975
+DHBEAFGCIJ -> 87 0.106975
+DHBEAFGCIJ -> 87 0.106975
+DHBEAFGCIJ -> 87 0.106975
+DHBEAFGCIJ -> 87 0.106975
+DHBEAFGCIJ -> 87 0.106975
+DHBEAFGCIJ -> 87 0.106975
+DHBEAFGCIJ -> 87 0.106975
+DHBEAFGCIJ -> 87 0.106975
+DHBEAFGCIJ -> 87 0.106975
+--------seleccion de padres--------
+padre 2   madre 7
+---------Cuzamiento OBX---------------
+padre: DHBEAFGCIJ
+madre  DHBEAFGCIJ
+---posiciones seleccionadas---
+pos0 p1:D p2:D
+pos2 p1:B p2:B
+pos6 p1:G p2:G
+pos7 p1:C p2:C
+pos9 p1:J p2:J
+
+hijo1  DHBEAFGCIJ
+hijo2  DHBEAFGCIJ
+mutacion hijo 1: DHBEAFGCIJ 87
+mutacion hijo 2: DHBEAFGCIJ 87
+generacion:7
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.105843
+DHBEAFGCIJ -> 87 0.105843
+DHBEAFGCIJ -> 87 0.105843
+DHBEAFGCIJ -> 87 0.105843
+DHBEAFGCIJ -> 87 0.105843
+DHBEAFGCIJ -> 87 0.105843
+DHBEAFGCIJ -> 87 0.105843
+DHBEAFGCIJ -> 87 0.105843
+DHBEAFGCIJ -> 87 0.105843
+DHBEAFGCIJ -> 87 0.105843
+--------seleccion de padres--------
+padre 2   madre 6
+---------Cuzamiento OBX---------------
+padre: DHBEAFGCIJ
+madre  DHBEAFGCIJ
+---posiciones seleccionadas---
+pos2 p1:B p2:B
+pos5 p1:F p2:F
+pos7 p1:C p2:C
+pos9 p1:J p2:J
+
+hijo1  DHBEAFGCIJ
+hijo2  DHBEAFGCIJ
+mutacion hijo 1: DHBEAFGCIJ 87
+mutacion hijo 2: DHBEAFGCIJ 87
+generacion:6
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.104734
+DHBEAFGCIJ -> 87 0.104734
+DHBEAFGCIJ -> 87 0.104734
+DHBEAFGCIJ -> 87 0.104734
+DHBEAFGCIJ -> 87 0.104734
+DHBEAFGCIJ -> 87 0.104734
+DHBEAFGCIJ -> 87 0.104734
+DHBEAFGCIJ -> 87 0.104734
+DHBEAFGCIJ -> 87 0.104734
+DHBEAFGCIJ -> 87 0.104734
+--------seleccion de padres--------
+padre 3   madre 10
+---------Cuzamiento OBX---------------
+padre: DHBEAFGCIJ
+madre  DHBEAFGCIJ
+---posiciones seleccionadas---
+pos1 p1:H p2:H
+pos3 p1:E p2:E
+pos4 p1:A p2:A
+pos7 p1:C p2:C
+
+hijo1  DHBEAFGCIJ
+hijo2  DHBEAFGCIJ
+mutacion hijo 1: DHBEAFGCIJ 87
+mutacion hijo 2: DHBEAFGCIJ 87
+generacion:5
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.103649
+DHBEAFGCIJ -> 87 0.103649
+DHBEAFGCIJ -> 87 0.103649
+DHBEAFGCIJ -> 87 0.103649
+DHBEAFGCIJ -> 87 0.103649
+DHBEAFGCIJ -> 87 0.103649
+DHBEAFGCIJ -> 87 0.103649
+DHBEAFGCIJ -> 87 0.103649
+DHBEAFGCIJ -> 87 0.103649
+DHBEAFGCIJ -> 87 0.103649
+--------seleccion de padres--------
+padre 9   madre 10
+---------Cuzamiento OBX---------------
+padre: DHBEAFGCIJ
+madre  DHBEAFGCIJ
+---posiciones seleccionadas---
+pos3 p1:E p2:E
+pos4 p1:A p2:A
+pos5 p1:F p2:F
+pos6 p1:G p2:G
+pos7 p1:C p2:C
+pos8 p1:I p2:I
+pos9 p1:J p2:J
+
+hijo1  DHBEAFGCIJ
+hijo2  DHBEAFGCIJ
+mutacion hijo 1: DHBEAFGCIJ 87
+mutacion hijo 2: DHBEAFGCIJ 87
+generacion:4
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.102586
+DHBEAFGCIJ -> 87 0.102586
+DHBEAFGCIJ -> 87 0.102586
+DHBEAFGCIJ -> 87 0.102586
+DHBEAFGCIJ -> 87 0.102586
+DHBEAFGCIJ -> 87 0.102586
+DHBEAFGCIJ -> 87 0.102586
+DHBEAFGCIJ -> 87 0.102586
+DHBEAFGCIJ -> 87 0.102586
+DHBEAFGCIJ -> 87 0.102586
+--------seleccion de padres--------
+padre 4   madre 5
+---------Cuzamiento OBX---------------
+padre: DHBEAFGCIJ
+madre  DHBEAFGCIJ
+---posiciones seleccionadas---
+pos0 p1:D p2:D
+pos1 p1:H p2:H
+pos2 p1:B p2:B
+pos3 p1:E p2:E
+pos4 p1:A p2:A
+pos7 p1:C p2:C
+pos8 p1:I p2:I
+pos9 p1:J p2:J
+
+hijo1  DHBEAFGCIJ
+hijo2  DHBEAFGCIJ
+mutacion hijo 1: DHBEAFGCIJ 87
+mutacion hijo 2: DHBEAFGCIJ 87
+generacion:3
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.101544
+DHBEAFGCIJ -> 87 0.101544
+DHBEAFGCIJ -> 87 0.101544
+DHBEAFGCIJ -> 87 0.101544
+DHBEAFGCIJ -> 87 0.101544
+DHBEAFGCIJ -> 87 0.101544
+DHBEAFGCIJ -> 87 0.101544
+DHBEAFGCIJ -> 87 0.101544
+DHBEAFGCIJ -> 87 0.101544
+DHBEAFGCIJ -> 87 0.101544
+--------seleccion de padres--------
+padre 6   madre 1
+---------Cuzamiento OBX---------------
+padre: DHBEAFGCIJ
+madre  DHBEAFGCIJ
+---posiciones seleccionadas---
+pos0 p1:D p2:D
+pos1 p1:H p2:H
+pos3 p1:E p2:E
+pos4 p1:A p2:A
+pos5 p1:F p2:F
+pos7 p1:C p2:C
+pos9 p1:J p2:J
+
+hijo1  DHBEAFGCIJ
+hijo2  DHBEAFGCIJ
+mutacion hijo 1: DHBEAFGCIJ 87
+mutacion hijo 2: DHBEAFGCIJ 87
+generacion:2
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.100523
+DHBEAFGCIJ -> 87 0.100523
+DHBEAFGCIJ -> 87 0.100523
+DHBEAFGCIJ -> 87 0.100523
+DHBEAFGCIJ -> 87 0.100523
+DHBEAFGCIJ -> 87 0.100523
+DHBEAFGCIJ -> 87 0.100523
+DHBEAFGCIJ -> 87 0.100523
+DHBEAFGCIJ -> 87 0.100523
+DHBEAFGCIJ -> 87 0.100523
+--------seleccion de padres--------
+padre 3   madre 8
+---------Cuzamiento OBX---------------
+padre: DHBEAFGCIJ
+madre  DHBEAFGCIJ
+---posiciones seleccionadas---
+pos5 p1:F p2:F
+pos8 p1:I p2:I
+pos9 p1:J p2:J
+
+hijo1  DHBEAFGCIJ
+hijo2  DHBEAFGCIJ
+mutacion hijo 1: DHBEAFGCIJ 87
+mutacion hijo 2: DHBEAFGCIJ 87
+generacion:1
+------evaluando poblacion--------
+DHBEAFGCIJ -> 87 0.0995227
+DHBEAFGCIJ -> 87 0.0995227
+DHBEAFGCIJ -> 87 0.0995227
+DHBEAFGCIJ -> 87 0.0995227
+DHBEAFGCIJ -> 87 0.0995227
+DHBEAFGCIJ -> 87 0.0995227
+DHBEAFGCIJ -> 87 0.0995227
+DHBEAFGCIJ -> 87 0.0995227
+DHBEAFGCIJ -> 87 0.0995227
+DHBEAFGCIJ -> 87 0.0995227
+--------seleccion de padres--------
+padre 5   madre 10
+---------Cuzamiento OBX---------------
+padre: DHBEAFGCIJ
+madre  DHBEAFGCIJ
+---posiciones seleccionadas---
+pos0 p1:D p2:D
+pos1 p1:H p2:H
+pos2 p1:B p2:B
+pos5 p1:F p2:F
+pos9 p1:J p2:J
+
+hijo1  DHBEAFGCIJ
+hijo2  DHBEAFGCIJ
+mutacion hijo 1: DHBEAFGCIJ 87
+mutacion hijo 2: DHBEAFGCIJ 87
+generacion:0

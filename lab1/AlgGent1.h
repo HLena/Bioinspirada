@@ -136,7 +136,6 @@ genetico::genetico(int n_i, int n_g, int p, num p_c, num p_m, int g){
         evaluando();
     }
 }
-
 void genetico:: evaluando(){
     if(poblacion.size()> 0){
         seleccion_poblacion();
@@ -144,6 +143,7 @@ void genetico:: evaluando(){
         creacion_poblacion();
     }
 }
+
 void genetico::creacion_poblacion(){
     cout<<"-----Creando poblacion-----"<<endl;
     indv i1;
@@ -194,7 +194,7 @@ void genetico::calcular_fitness(){
 void genetico::seleccion_poblacion(){
     cout<<"-----evaluando individios------"<<endl;
     mostrar_poblacion();
-    while(poblacion.size()>n_individuos)    poblacion.pop_back();
+    while(poblacion.size()>n_individuos)   poblacion.pop_back();
     calcular_fitness();
     porcentaje.clear();   
     for(int n = 0; n < n_individuos; n++)
@@ -250,4 +250,5 @@ void genetico::mutacion(indv &x){
     else
         cout<<"No"<<endl;
 }
+
 
