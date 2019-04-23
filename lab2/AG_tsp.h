@@ -100,13 +100,16 @@ double tsp::fitness(string s){
       auto x0  = nodos.find(s0);
       auto x1 = x0;
       s0v = x0->second;
+      // file<<s<<" ";
       for(int it = 1; it < l; it++){
             s1 = s[it];
             x1 = nodos.find(s1);
             s1v = x1->second; 
             sum += graph[s0v*l+s1v];
+            // file<<graph[s0v*l+s1v]<<" ";
             s0 = s1; x0 = x1; s0v = s1v;
       }
+      // file<<endl;
       return sum;
             
 }
@@ -118,7 +121,6 @@ void tsp::crear_poblacion(){
             aux.cadena = states;
             aux.fitness = fitness(states);
             aux.comp = 1/aux.fitness;
-            total +=aux.comp;
             poblacion.push_back(aux);
       }
       file<<"-----------POBLACION INICIAL------------"<<endl;
