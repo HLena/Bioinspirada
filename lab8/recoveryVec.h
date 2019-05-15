@@ -41,7 +41,7 @@ class evolucionDif
             num lim_sup;
             int n_ind;
             int iteraciones;
-            int target;
+            // int target;
             ofstream file;
             vector<ind> individuos;
             vector<ind> hijos;
@@ -51,8 +51,8 @@ class evolucionDif
             void hallar_xy(ind &);
             bool mutacion(int, int, ind&);
             // void mutacion(int, int, ind&);
-            void seleccionarIndividuos();
-            void cruzamiento(ind&);
+            void seleccionarIndividuos(int&);
+            void cruzamiento(ind&,int&);
             void mostrarPoblacion(/*char*/);
             void seleccionMejorIndividuo(ind&, ind&);
             void inicio();
@@ -80,25 +80,19 @@ evolucionDif::evolucionDif(int it)
       CR = 0.9;
       lim_inf = -1;
       lim_sup = 2;
-      target = 0;
+      // target = 0;
       variables = 2;
 }
 
 void evolucionDif::hallar_xy(ind& aux)
 {
-      // ((double) rand()*(101)/(double)RAND_MAX-0);
-      // do 
-      // i.valores[0] =((num)rand() * (lim_sup-lim_inf)) /(num)RAND_MAX + lim_inf;
-      // while(i.valores[0] < lim_inf && i.valores[0] > lim_sup);
-      // do 
-      // i.valores[1] =((num)rand() * (lim_sup-lim_inf)) /(num)RAND_MAX + lim_inf; 
-      // while(i.valores[1] < lim_inf && i.valores[1] > lim_sup);
-      // file<<"poblacion creada"<<endl;
       num valor;
 
       for(size_t i=0; i < variables; i++)
-      {
-            valor = ((num)rand() * (lim_sup-lim_inf)) /(num)RAND_MAX + lim_inf; 
+      {     
+            do{
+                  valor = ((num)rand() * (lim_sup-lim_inf)) /(num)RAND_MAX + lim_inf;
+            } while(valor < lim_inf && valor > lim_sup);
             aux.valores.push_back(valor);
             // file<<"poblacion creada..."<<endl;
 
@@ -123,23 +117,7 @@ void evolucionDif::crearPoblacion()
 bool evolucionDif::mutacion(int i1,int i2, ind &vd)
 // void evolucionDif::mutacion(int i1,int i2, ind &vd)
 {     
-      // int itm;
-      // do{
-      //       // file<<"*\n";
-      //       do itm = torneo(); while(itm == i1 or itm == i2);
-      //       vd.valores.clear();
-      //       vd.valores.push_back((individuos[i1].valores[0] - individuos[i2].valores[0])* F +individuos[itm].valores[0]);
-      //       vd.valores.push_back((individuos[i1].valores[1] - individuos[i2].valores[1])* F +individuos[itm].valores[1]);
-      //       // file<<"**VMutado("<<vd.valores[0]<<","<<vd.valores[1]<<")"<<endl;
-      // }while((vd.valores[0] < -1 or vd.valores[0] > 2) or (vd.valores[1] < -1 or vd.valores[1] > 2));
-
-      // file<<"Vid("<<i1<<"):("<<individuos[i1].valores[0]<<","<<individuos[i1].valores[1]<<")"<<"["<<individuos[i1].fitness<<"]"<<endl;
-      // file<<"Vid("<<i2<<"):("<<individuos[i2].valores[0]<<","<<individuos[i2].valores[1]<<")"<<"["<<individuos[i2].fitness<<"]"<<endl;
-      // file<<"Vm("<<itm<<"):("<<individuos[itm].valores[0]<<","<<individuos[itm].valores[1]<<")"<<"["<<individuos[itm].fitness<<"]"<<endl;
-      // file<<"***INDIVIDUO MUTADO***\n";
-      // file<<"VMutado("<<vd.valores[0]<<","<<vd.valores[1]<<")"<<endl;
-     
-
+      
       int itm;
       do itm = torneo(); while(itm == i1 or itm == i2);
       vd.valores.clear();
@@ -164,7 +142,7 @@ void evolucionDif::seleccionMejorIndividuo(ind &a , ind &targ){
       (a.fitness > targ.fitness)? hijos.push_back(a):hijos.push_back(targ);
 
 }
-void evolucionDif::cruzamiento(ind &mt)
+void evolucionDif::cruzamiento(ind &mt, int&target)
 {     
       file<<"***CRUZAMIENTO***\n";
       num nj;
@@ -182,7 +160,7 @@ void evolucionDif::cruzamiento(ind &mt)
       
 }
 
-void evolucionDif::seleccionarIndividuos()
+void evolucionDif::seleccionarIndividuos(int &i)
 {
       int id1, id2;
       ind vm;
@@ -194,7 +172,7 @@ void evolucionDif::seleccionarIndividuos()
       }
       // mutacion(id1, id2, vm);
       file<<"***INDIVIDUOS SELECCIONADOS***\n";
-      cruzamiento(vm);
+      cruzamiento(vm,i);
 
 }
 
@@ -218,23 +196,19 @@ void evolucionDif::inicio()
       file.open("2000it.txt");
       for (size_t i = 0; i <= iteraciones; i++)
       {
-            file<<"=========================ITERACION "<<i<<" ================================\n";
+            file<<"===============ITERACION "<<i<<" ==================\n";
             if(individuos.size() > 0)
             {
-                  // file<<"poblacion creada1"<<endl;
-                  seleccionarIndividuos();
-                  // mostrarPoblacion('h');
-                  target++;
-                  if(target == 100)
-                  {     
-                        file<<"*****NUEVA POBLACION******\n";
-                        individuos = hijos;
-                        hijos.clear();
-                        target = 0;
-                        mostrarPoblacion();
+                  // target = 0;
+                  for(int i=0; i < individuos.size();i++){
+                        file<<"--------------TG: ["<<i<<"]-------------"<<endl;
+                        seleccionarIndividuos(i);
 
                   }
-                  
+                  file<<"*****NUEVA POBLACION******\n";
+                  mostrarPoblacion();
+                  individuos = hijos;
+                  hijos.clear();
             }else{
                   crearPoblacion();
                   mostrarPoblacion();
