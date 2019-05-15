@@ -130,10 +130,13 @@ def main():
                   evaluarPoblacion(1)
                   mostrarPoblacion(1)
                   procrearOffspring()
-                  seleccionarSobrevivientes()
+                  if(x != iteraciones-1):
+                        seleccionarSobrevivientes()
                   # mostrarPoblacion(1)
             else:
                   crearPoblacion()
+            # evaluarPoblacion(1)
+            # mostrarPoblacion(1)
             # file.write("len_indi: "+str(len(individuos))+"\n")
       file.close()
 

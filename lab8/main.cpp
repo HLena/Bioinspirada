@@ -1,7 +1,10 @@
-#include "evolucionDif.h"
+// #include "evolucionDif.h"
+#include "evoDifVec.h"
 
-int main(){
+int main(int argc, char const *argv[]){
+
       srand(time(NULL));
-      evolucionDif evo(2);
-      evo.inicio();
+
+      evolucionDif a(4000);
+      a.inicio();
 }

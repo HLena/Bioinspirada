@@ -33,7 +33,8 @@ bool odenar(ind, ind);
 
 class evolucionDif
 {
-      private:
+      // private:
+      public:
             num F;
             num CR;
             num lim_inf;
@@ -41,7 +42,6 @@ class evolucionDif
             int n_ind;
             int iteraciones;
             int target;
-      public:
             ofstream file;
             vector<ind> individuos;
             vector<ind> hijos;
@@ -53,7 +53,7 @@ class evolucionDif
             void seleccionarIndividuos();
             void cruzamiento(ind&);
             void mostrarPoblacion();
-            void seleccionMejorIndividuo(ind, ind);
+            void seleccionMejorIndividuo(ind&, ind&);
             void inicio();
 
 
@@ -73,7 +73,7 @@ int evolucionDif::torneo()
 evolucionDif::evolucionDif(int it)
 {
       iteraciones = it;
-      n_ind = 100 + rand()%120;
+      n_ind = 100 + rand()%110;
       F = 0.5;
       CR = 0.9;
       lim_inf = -1;
@@ -94,6 +94,7 @@ void evolucionDif::hallar_xy(ind& i)
 
 void evolucionDif::crearPoblacion()
 {
+      file<<"NUMERO DE POBALCION ES: "<<n_ind<<endl;
       while(individuos.size() < n_ind){
             ind tmp;
             hallar_xy(tmp);
@@ -123,7 +124,7 @@ void evolucionDif::mutacion(int i1,int i2, ind &vd)
 }
 
 
-void evolucionDif(ind &a , ind &b){
+void evolucionDif::seleccionMejorIndividuo(ind &a , ind &b){
       (a.fitness > b.fitness)? hijos.push_back(a):hijos.push_back(b);
 
 }
@@ -162,7 +163,7 @@ void evolucionDif::mostrarPoblacion()
       for (size_t i = 0; i < individuos.size(); i++)
       {
             file<<"("<<individuos[i].x<<" "<<individuos[i].y<<")["<<individuos[i].fitness<<"] ";
-            if(i%10==0) file<<endl;
+            if(i%10==0 && i!=0) file<<endl;
       }
       file<<endl;
       file<<"--------------------------\n";
@@ -171,7 +172,7 @@ void evolucionDif::mostrarPoblacion()
 
 void evolucionDif::inicio()
 {
-      file.open("evodif.txt");
+      file.open("evodif_1.txt");
       for (size_t i = 0; i <= iteraciones; i++)
       {
             if(individuos.size() > 0)
